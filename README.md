@@ -1,2 +1,2 @@
-# Meta
-Documentation
+# Initial page
+
