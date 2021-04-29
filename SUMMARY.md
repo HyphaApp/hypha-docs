@@ -1,18 +1,18 @@
 # Table of contents
 
 * [Initial page](README.md)
-* Deployment
-  * [Stand Alone](./Deployment/Stand-alone.md)
-  * [Heroku](./Deployment/Heroku.md)
-  * [Docker](./Deployment/Docker.md)
-* Contributing
-  * [Local Development with Docker](./Contributing/LocalDevelDocker.md)
-  * [Local Development from Scratch](./Contributing/LocalDevelScratch.md)
-  * [Submitting Changes](./Contributing/SubmittingChanges.md)
-  * [Implementation Details](./Contributing/ImplementationDetails.md)
-  * [Testing](./Contributing/Testing.md)
-* Maintenance
-  * [Quarterly Milestone Rebase](./Maintenance.md/QuarterlyMilestoneRebase.md)
-* Administration
-* User Documentation
+* [Deployment](deployment/README.md)
+  * [Stand Alone](deployment/stand-alone.md)
+  * [Heroku](deployment/heroku.md)
+  * [Docker](deployment/docker.md)
+* [Contributing](contributing/README.md)
+  * [Local Development with Docker](contributing/localdeveldocker.md)
+  * [Local Development from Scratch](contributing/localdevelscratch.md)
+  * [Submitting Changes](contributing/submittingchanges.md)
+  * [Implementation Details](contributing/implementationdetails.md)
+  * [Testing](contributing/testing.md)
+* [Maintenance](maintenance/README.md)
+  * [Quarterly Milestone Rebase](maintenance/quarterlymilestonerebase.md)
+* [Administration](administration.md)
+* [User Documentation](user-documentation.md)
 
