@@ -1,4 +1,4 @@
-# Getting Started
+# Getting Started for Staff
 
 ### *Understanding how Hypha integrates into your organization's workflow*
 
@@ -32,5 +32,10 @@
 
 <br>
 
-## To Be Added:
+### *Next: Understanding **Roles** in Hypha*
+
+<br>
+
+### To Be Added:
  - Links to documentation for "Forms," "Funds," "Rounds," & "Pages"
+ - Link to section for "Roles"
