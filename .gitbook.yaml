@@ -1,10 +1,8 @@
-
-
 root: ./hypha-docs/
 
 structure:
-  readme: README.md
-  summary: SUMMARY.md
+  readme: ./README.md
+  summary: ./SUMMARY.md
 
 redirects:
-  User Documentation: user/GettingStarted_overview.md
+  User Documentation: ./user/GettingStarted_overview.md
