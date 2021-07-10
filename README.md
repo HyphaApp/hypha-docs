@@ -4,7 +4,7 @@ description: Hypha Documentation Main Page
 
 # Hypha
 
-## *Submission management software for open calls*
+## Submission management software for open calls
 
 ### Features
 
@@ -12,16 +12,14 @@ description: Hypha Documentation Main Page
 * Customize all aspects of the process, forms, workflows, review options, and more.
 * Automate workflows and integrate with other services \(Slack, Mailgun, etc\).
 * Regularly audited software with many privacy and security features.
-* View our [Roadmap](https://github.com/OpenTechFund/hypha/wiki/Roadmap) for upcoming features and enhancements.
+* View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
 
-<br>
 
 ### Technology
 
 * Built with [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/)
-* Deploy with [Heroku](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Heroku), [Docker](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Docker), or [your own server](https://github.com/OpenTechFund/hypha/wiki/Deployment:-Standalone-App).
+* Deploy with [Heroku](https://docs.hypha.app/deployment/heroku), [Docker](https://docs.hypha.app/deployment/docker), or [your own server](https://docs.hypha.app/deployment/stand-alone).
 
-<br>
 
 ### Maintainers
 
@@ -29,9 +27,8 @@ description: Hypha Documentation Main Page
 * [Dan Blah](https://github.com/danblah) @ [Reset](https://www.reset.tech/)
 * [Fredrik Jonsson](https://github.com/frjo) @ [Combonetwork](https://www.combonet.se/)
 
-<br>
 
-## **Community**
+## Community
 
 ### Contributors
 
@@ -43,7 +40,6 @@ description: Hypha Documentation Main Page
 * [Throneless Technology](https://throneless.tech/)
 * [Psycle](https://psycle.com/)
 
-<br>
 
 ### Implementers
 
@@ -52,7 +48,6 @@ description: Hypha Documentation Main Page
 * [Open Technology Fund](https://www.opentech.fund)
 * [Reset](https://www.reset.tech)
 
-<br>
 
 ### Sponsors
 
@@ -61,7 +56,6 @@ description: Hypha Documentation Main Page
 * [Open Technology Fund](https://www.opentech.fund)
 * [Reset](https://www.reset.tech)
 
-<br>
 
 ## Sponsor Hypha
 
@@ -73,18 +67,14 @@ Hypha is an open source project made possible thanks to the support of sponsors.
 
 [![Find and sponsor issues](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/OpenTechFund/hypha)
 
-<br>
 
 ## More information
 
-* Website: [https://hypha.app](https://hypha.app)
+* [Website](https://www.hypha.app)
 * Documentation:
-    * [Getting Started with Hypha](link to be added)
+    * [Getting Started with Hypha](https://docs.hypha.app/)
     * [Contribute to documentation](https://github.com/HyphaApp/hypha-docs)
 * Have questions or suggestions? [Join the conversation!](https://we.hypha.app)
 * Why Hypha? [**Hyphae**](https://en.wikipedia.org/wiki/Mycorrhizal_network)**:** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources. Hopefully, Hypha helps its users do the same.
 
-<br>
-
-<div align="center"> Copyright &#169; 2021 - Open Technology Fund </div>
-
+Copyright &#169; 2021 - Open Technology Fund
