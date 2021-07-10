@@ -5,7 +5,7 @@
 Make sure you have these things installed on your system:
 
 * Git
-* Python 3.7.x or 3.8.x
+* Python 3.8.x
   * python3-venv \(to setup virtual enviroment\)
   * python3-pip \(to install python packages\)
 * PostgreSQL 12.x
@@ -35,7 +35,7 @@ OBS! All examples from now on will use the `hypha.test` domains.
 ## Get the code
 
 ```text
-$ git clone git@github.com:OpenTechFund/hypha.git hypha
+$ git clone https://github.com/HyphaApp/hypha.git hypha
 
 $ cd hypha
 ```

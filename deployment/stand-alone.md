@@ -6,7 +6,7 @@ This process was tested on Ubuntu 18.04LTS. It should work on any Debian-based s
 
 ### Get the code
 
-`git clone git@github.com:OpenTechFund/hypha.git [your-site-directory]`
+`git clone https://github.com/HyphaApp/hypha.git [your-site-directory]`
 
 ### Basic installation steps.
 
@@ -94,12 +94,12 @@ server {
     listen 80;
     server_name server.domain;
 
-    location ^~/media/(.*)$ {
-        alias /path/to/hypha/media/;
+    location /media/ {
+        alias /path/to/application/hypha/media/;
     }
 
-    location ^~/static/(.*)$ {
-        alias /path/to/hypha/static/;
+    location /static/ {
+        alias /path/to/application/hypha/static/;
     }
 
     location / {
@@ -120,12 +120,12 @@ server {
     listen 80;
     server_name apply.server.domain;
 
-    location ^~/media/(.*)$ {
-        alias /path/to/hypha/media/;
+    location /media/ {
+        alias /path/to/application/hypha/media/;
     }
 
-    location ^~/static/(.*)$ {
-        alias /path/to/hypha/static/;
+    location /static/ {
+        alias /path/to/application/hypha/static/;
     }
 
     location / {
