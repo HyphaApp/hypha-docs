@@ -45,6 +45,7 @@ description: Hypha Documentation Main Page
 
 *Thank you brave folks who choose to use Hypha &lt;3*
 
+* [Digital Freedom Fund](https://digitalfreedomfund.org/)
 * [Open Technology Fund](https://www.opentech.fund)
 * [Reset](https://www.reset.tech)
 
