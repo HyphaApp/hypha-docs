@@ -94,6 +94,8 @@ server {
     listen 80;
     server_name server.domain;
 
+    client_max_body_size 2621440;
+
     location /media/ {
         alias /path/to/application/hypha/media/;
     }
@@ -120,6 +122,8 @@ server {
     listen 80;
     server_name apply.server.domain;
 
+    client_max_body_size 2621440;
+
     location /media/ {
         alias /path/to/application/hypha/media/;
     }
@@ -138,7 +142,9 @@ server {
 }
 ```
 
-Then, symlink these to sites-enabled: `sudo ln -s /etc/nginx/sites-available/public /etc/nginx/sites-enabled && sudo ln -s /etc/nginx/sites-available/apply /etc/nginx/sites-enabled`. Then restart nginx using `sudo systemctl restart nginx`.
+The `client_max_body_size` configuration directive is very important. Hypha uploads files to the server in 2.5MB chunks. However, by default, nginx limits uploads to 1MB chunks. The result is that users of a Hypha system running "behind" nginx will see file upload failures for any file larger than 1MB. Using the `client_max_body_size` directive in the nginx `server` context is, therefore, required to make it possible for users to upload files that are bigger than 1MB in size.
+
+Symbolically link these to sites-enabled: `sudo ln -s /etc/nginx/sites-available/public /etc/nginx/sites-enabled && sudo ln -s /etc/nginx/sites-available/apply /etc/nginx/sites-enabled`. Then restart nginx using `sudo systemctl restart nginx`.
 
 **You should then be able to access your application at** [http://server.domain](http://server.domain) **and** [http://apply.server.domain](http://apply.server.domain)**.**
 
