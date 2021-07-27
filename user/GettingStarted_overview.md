@@ -1,5 +1,5 @@
 # Getting Started with Hypha
- *This page provides instructions folks using (or considering) Hypha.*
+ *This page provides instructions for folks using (or considering) Hypha.*
 
 ---
 
