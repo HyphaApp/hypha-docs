@@ -73,7 +73,7 @@ Hypha is an open source project made possible thanks to the support of sponsors.
 
 * [Website](https://www.hypha.app)
 * Documentation:
-    * [Getting Started with Hypha](https://docs.hypha.app/)
+    * [Getting Started using Hypha](user/GettingStarted_overview.md)
     * [Contribute to documentation](https://github.com/HyphaApp/hypha-docs)
 * Have questions or suggestions? [Join the conversation!](https://we.hypha.app)
 * Why Hypha? [**Hyphae**](https://en.wikipedia.org/wiki/Mycorrhizal_network)**:** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources. Hopefully, Hypha helps its users do the same.
