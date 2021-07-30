@@ -14,6 +14,6 @@
 * [Maintenance](maintenance/README.md)
   * [Quarterly Milestone Rebase](maintenance/quarterlymilestonerebase.md)
 * [Administration](administration.md)
-* [User Documentation](user/GettingStarted_overview.md)
-  * [Getting Started for Staff](user/GettingStarted_staff.md)
+* [User Documentation](gettingstarted_overview/README.md)
+  * [Getting Started for Staff](gettingstarted_overview/gettingstarted_staff.md)
 
