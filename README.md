@@ -1,8 +1,10 @@
 ---
-description: Hypha Documentation Main Page
+description: >-
+  Everything you need to know about Hypha. Within are information and links to
+  help you get started with Hypha. Enjoy!
 ---
 
-# Initial page
+# Welcome to Hypha's Documentation
 
 ## Submission management software for open calls
 

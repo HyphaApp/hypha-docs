@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Initial page](README.md)
+* [Welcome to Hypha's Documentation](README.md)
 * [Deployment](deployment/README.md)
   * [Stand Alone](deployment/stand-alone.md)
   * [Heroku](deployment/heroku.md)
