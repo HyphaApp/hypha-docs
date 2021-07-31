@@ -38,5 +38,5 @@ The two site have different url configurations, this limits the Apply site to a 
 
 The default url configuration is for the Public site which are shared by the Public and Apply sites.
 
-The Public site has access to the "public authentication" urls, this enables reverse lookup of the url in templates, such as the [login button](https://github.com/HyphaApp/hypha/blob/main/hypha/public/utils/templates/utils/includes/login_button.html), but the user is redirected to the apply site. Visiting https:///login will present a login screen.
+The Public site has access to the "public authentication" urls, this enables reverse lookup of the url in templates, such as the [login button](https://github.com/HyphaApp/hypha/blob/main/hypha/public/utils/templates/utils/includes/login_button.html), but the user is redirected to the apply site. Visiting [https:///login](https:///login) will present a login screen.
 
