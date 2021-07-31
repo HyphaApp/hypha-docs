@@ -39,5 +39,6 @@
 <br>
 
 ### To Be Added:
+- How to Log in (process is the same for Staff, Reviewers, & Applicants, but dashboard looks different depending on Role) 
  - Links to documentation for "Forms," "Funds," "Rounds," & "Pages"
  - Link to section for "Roles"

@@ -1,19 +1,43 @@
 ---
 description: Hypha Documentation Main Page
 ---
+# Welcome!
+We're glad you're thinking about using Hypha&mdash;please see below for information about our product!  
 
-# Hypha
+## What is Hypha?
 
-## Submission management software for open calls
+Hypha is a web-based proposal submission software that allows you to:
+- Share information about your organization
+- Advertise your organization's funding opportunities or grants
+- Receive and review proposal submissions
 
-### Features
+<br>
 
-* Manage the collection and review of applications or submissions openly and efficiently.
-* Customize all aspects of the process, forms, workflows, review options, and more.
-* Automate workflows and integrate with other services \(Slack, Mailgun, etc\).
-* Regularly audited software with many privacy and security features.
-* View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
+## Why Use Hypha?
 
+* Efficient & transparent collection and review of proposal submissions
+* Highly customizeable at all aspects of the process (e.g., forms, workflows, review options, and more)
+* Open-source, community-informed product compatible with your organization's values
+* Regularly audited, with many privacy and security features.
+* Can be integrated with other services \(Slack, Mailgun, etc\)
+* Always improving: View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
+
+[//]: # (Want to say something about community-led updates or that we take feedback from users to make Hypha better* - does "community-informed" get at that??)
+
+<br>
+
+## Start Exploring
+* [Getting Started using Hypha](user/GettingStarted_overview.md)
+* [Contribute to documentation](https://github.com/HyphaApp/hypha-docs)
+* Frequently Asked Questions
+
+
+<br>
+<br>
+<br>
+<br>
+
+---
 
 ### Technology
 
