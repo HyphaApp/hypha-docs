@@ -3,9 +3,7 @@ description: >-
   Everything you need to know about Hypha. Within are information and links to
   help you get started with Hypha. Enjoy!
 ---
-=======
 # Welcome to Hypha's Documentation
->>>>>>> 966c772a3d9a4dfcfb4273f619e6d0fae7abaf1c
 
 ## What is Hypha?
 Hypha is a web-based proposal submission software that allows you to:
@@ -13,12 +11,12 @@ Hypha is a web-based proposal submission software that allows you to:
 - Advertise your organization's funding opportunities or grants
 - Receive and review proposal submissions
 
-Why Hypha? [**Hyphae**](https://en.wikipedia.org/wiki/Mycorrhizal_network)**:** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources. Hopefully, Hypha helps its users do the same.
+_Why Hypha? [**Hyphae**](https://en.wikipedia.org/wiki/Mycorrhizal_network)**:** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources. Hopefully, Hypha helps its users do the same._
+
 <br>
 
 ## Why Use Hypha?
 
-<<<<<<< HEAD
 * Efficient & transparent collection and review of proposal submissions
 * Highly customizeable at all aspects of the process (e.g., forms, workflows, review options, and more)
 * Open-source, community-informed product compatible with your organization's values
@@ -38,8 +36,8 @@ Why Hypha? [**Hyphae**](https://en.wikipedia.org/wiki/Mycorrhizal_network)**:** 
 
 <br>
 
-=======
->>>>>>> 966c772a3d9a4dfcfb4273f619e6d0fae7abaf1c
+___
+## More Information about Hypha
 ### Technology
 
 * Built with [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/)
