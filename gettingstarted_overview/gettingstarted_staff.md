@@ -2,6 +2,8 @@
 
 ### _Understanding how Hypha integrates into your organization's workflow_
 
+<br>
+
 ## Granting organizations' workflow:
 
 1. Determine **kind of project** to be funded \(e.g. grantmaking categories or thematic areas\)
@@ -12,6 +14,8 @@
 6. Specify **review criteria**
 7. **Assign reviewers** to received applications
 8. Review applications & **make decisions** about which projects to fund
+
+<br>
 
 ## Workflow in Hypha:
 
@@ -28,10 +32,7 @@
   * the _request for proposals_ \[5\] \(_this may be incorporated with \[1\]_\)
   * a _link to apply_ \(this links to the **Round**\) 
 
+<br>
+
 ### _Next: Understanding Roles in Hypha_
-
-### To Be Added:
-
-* Links to documentation for "Forms," "Funds," "Rounds," & "Pages"
-* Link to section for "Roles"
 
