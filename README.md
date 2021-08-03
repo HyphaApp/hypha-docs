@@ -3,41 +3,37 @@ description: >-
   Everything you need to know about Hypha. Within are information and links to
   help you get started with Hypha. Enjoy!
 ---
+
 # Welcome to Hypha's Documentation
 
 ## What is Hypha?
+
 Hypha is a web-based proposal submission software that allows you to:
-- Share information about your organization
-- Advertise your organization's funding opportunities or grants
-- Receive and review proposal submissions
 
-_Why Hypha? [**Hyphae**](https://en.wikipedia.org/wiki/Mycorrhizal_network)**:** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources. Hopefully, Hypha helps its users do the same._
+* Share information about your organization
+* Advertise your organization's funding opportunities or grants
+* Receive and review proposal submissions
 
-<br>
+_Why Hypha?_ [_**Hyphae**_](https://en.wikipedia.org/wiki/Mycorrhizal_network)_**:** long, branching ecosystem enriching organisms that form interconnected networks to collectively exchange resources. Hopefully, Hypha helps its users do the same._
 
 ## Why Use Hypha?
 
 * Efficient & transparent collection and review of proposal submissions
-* Highly customizeable at all aspects of the process (e.g., forms, workflows, review options, and more)
+* Highly customizeable at all aspects of the process \(e.g., forms, workflows, review options, and more\)
 * Open-source, community-informed product compatible with your organization's values
 * Regularly audited, with many privacy and security features.
 * Can be integrated with other services \(Slack, Mailgun, etc\)
 * Always improving: View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
 
-[//]: # (Want to say something about community-led updates or that we take feedback from users to make Hypha better* - does "community-informed" get at that??)
-
-<br>
-
 ## Start Exploring
-* [Getting Started using Hypha](user/GettingStarted_overview.md)
-* [Contribute to documentation](https://github.com/HyphaApp/hypha-docs)
+
+* [Getting Started using Hypha](gettingstarted_overview/gettingstarted_staff.md)
+* [Contribute to documentation](https://docs.hypha.app)
 * Frequently Asked Questions
 * Have questions or suggestions? [Join the conversation!](https://we.hypha.app)
 
-<br>
-
-___
 ## More Information about Hypha
+
 ### Technology
 
 * Built with [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/)
@@ -85,7 +81,6 @@ Hypha is an open source project made possible thanks to the support of sponsors.
 [![Sponsor with Open Collective](https://opencollective.com/hypha/tiers/backer.svg?avatarHeight=75&width=600)](https://opencollective.com/hypha)
 
 [![Find and sponsor issues](https://issuehunt.io/static/embed/issuehunt-button-v1.svg)](https://issuehunt.io/r/OpenTechFund/hypha)
-
 
 Copyright © 2021 - Open Technology Fund
 
