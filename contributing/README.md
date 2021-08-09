@@ -24,6 +24,15 @@ You can find more detailed informatin on how to create a PR in the [submitting c
 
 ### Code contribution
 
+You probably want to read the documentation in the following order: 
+
+1. [Implementation details](https://docs.hypha.app/contributing/implementationdetails)
+2. Choose one of the followng options to get Hypha set-up in your local development environment:
+  - a [local development docker instance](https://docs.hypha.app/contributing/localdeveldocker)
+  - installing [Hypha from scratch](https://docs.hypha.app/contributing/localdevelscratch)
+3. [How to run tests on Hypha](https://docs.hypha.app/contributing/testing) 
+4. [How to dumit changes to the Hypha repo](https://docs.hypha.app/contributing/submittingchanges)
+
 
 ### Documentation contribution
 
