@@ -26,7 +26,7 @@ You can find more detailed informatin on how to create a PR in the [submitting c
 
 You probably want to read the documentation in the following order: 
 
-1. The [system principles] behind Hypha(https://docs.hypha.app/contributing/systemprinciples)
+1. The [system principles](https://docs.hypha.app/contributing/systemprinciples) behind Hypha.
 2. [Implementation details](https://docs.hypha.app/contributing/implementationdetails)
 3. Choose one of the followng to get Hypha set-up in your local environment:
   * a [local development docker instance](https://docs.hypha.app/contributing/localdeveldocker)
