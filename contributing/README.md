@@ -18,7 +18,7 @@ Found a bug and know how to fix it? Have some design wireframes to improve some 
 - Rebase your topic branch on top of the main branch before creating the pull request.
 - One feature or fix per pull request.
 
-You can find more detailed informatin on how to create a PR in the [submitting changes page](https://github.com/HyphaApp/hypha-docs/blob/main/contributing/submittingchanges.md).
+You can find more detailed informatin on how to create a PR in the [submitting changes page](https://docs.hypha.app/contributing/submittingchanges).
 
 ## Ways to contribute
 
