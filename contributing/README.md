@@ -29,8 +29,8 @@ You probably want to read the documentation in the following order:
 1. The [system principles] behind Hypha(https://docs.hypha.app/contributing/systemprinciples)
 2. [Implementation details](https://docs.hypha.app/contributing/implementationdetails)
 3. Choose one of the followng to get Hypha set-up in your local environment:
-  - a [local development docker instance](https://docs.hypha.app/contributing/localdeveldocker)
-  - installing [Hypha from scratch](https://docs.hypha.app/contributing/localdevelscratch)
+  * a [local development docker instance](https://docs.hypha.app/contributing/localdeveldocker)
+  * installing [Hypha from scratch](https://docs.hypha.app/contributing/localdevelscratch)
 3. [How to run tests on Hypha](https://docs.hypha.app/contributing/testing) 
 4. [How to sumit changes to the Hypha repo](https://docs.hypha.app/contributing/submittingchanges)
 5. [Reporting security issues with Hypha](https://docs.hypha.app/contributing/contributing/security)
