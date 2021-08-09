@@ -4,6 +4,10 @@ First off, thanks for taking the time to contribute! Hypha is improved by a smal
 
 Before you start working however, please read and follow this short guide.
 
+## Code of Conduct
+
+We ask that follow our [code of conduct](https://docs.hypha.app/contributing).
+
 ## Reporting issues
 
 All changes in Hypha start as an issue.
