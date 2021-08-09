@@ -41,6 +41,14 @@ You probably want to read the documentation in the following order:
 
 ### Documentation contribution
 
+**TO-DO**
+
 ### Design contribution
 
+**TO-DO**
+
 ### Translation
+
+We use [Weblate for managing Hypha translations](https://hosted.weblate.org/projects/hypha/).
+
+**TO-DO**
