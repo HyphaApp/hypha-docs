@@ -10,13 +10,15 @@ All changes in Hypha start as an issue.
 
 Pick the [correct issue template](https://github.com/HyphaApp/hypha/issues/new/choose) from the options given (bug report, feature request etc.). These templates will guide you. Provide as much information as possible. 
 
-## Creating Pull Requests
+## Creating Pull Requests (PR)
 
 Found a bug and know how to fix it? Have some design wireframes to improve some usability issues? Traslated Hypha into another language? Built a new feature you want to add? Great! Please read on.
 
 - Each pull request need to be linked to an issue. If non exist, [create one first](https://github.com/HyphaApp/hypha/issues/new/choose).
 - Rebase your topic branch on top of the main branch before creating the pull request.
 - One feature or fix per pull request.
+
+You can find more detailed informatin on how to create a PR in the [submitting changes page](https://github.com/HyphaApp/hypha-docs/blob/main/contributing/submittingchanges.md).
 
 ## Ways to contribute
 
