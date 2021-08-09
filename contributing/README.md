@@ -6,7 +6,7 @@ Before you start working however, please read and follow this short guide.
 
 ## Code of Conduct
 
-We ask that follow our [code of conduct](https://docs.hypha.app/contributing).
+We ask that follow our [code of conduct](https://docs.hypha.app/contributing/codeofconduct).
 
 ## Reporting issues
 
