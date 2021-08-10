@@ -4,6 +4,10 @@ First off, thanks for taking the time to contribute! Hypha is improved by a smal
 
 Before you start working however, please read and follow this short guide.
 
+## Project meetings
+
+Hypha maintainer's calls occur weekly. [Meeting notes are available on our discourse forum](https://we.hypha.app/c/meta/2).
+
 ## Code of Conduct
 
 We ask that follow our [code of conduct](https://docs.hypha.app/contributing/codeofconduct).
