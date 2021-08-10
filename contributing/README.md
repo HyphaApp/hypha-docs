@@ -26,7 +26,7 @@ You can find more detailed informatin on how to create a PR in the [submitting c
 
 ## Ways to contribute
 
-**TO-DO**
+**MORE TO-DO**
 
 ### Code contribution
 
