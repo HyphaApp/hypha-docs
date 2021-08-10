@@ -43,14 +43,18 @@ You probably want to read the documentation in the following order:
 
 ### Documentation contribution
 
-**TO-DO**
+We use the ["hypha-docs"](https://github.com/HyphaApp/hypha-docs/) Github repository, [Gitbook](http://gitbook.com/) to create and manage this [docs.hypha.app](docs.hypha.app) website.
+
+**MORE TO-DO**
 
 ### Design contribution
 
-**TO-DO**
+All design contributions are managed in Github issues. If you have a usability, or UX design recommendation, you can open a Github issue and use the ["Status: Needs UX/UI Review"](https://github.com/HyphaApp/hypha/labels/Status%3A%20Needs%20UI%2FUX%20review) label. 
+
+**MORE TO-DO**
 
 ### Translation
 
 We use [Weblate for managing Hypha translations](https://hosted.weblate.org/projects/hypha/).
 
-**TO-DO**
+**MORE TO-DO**
