@@ -43,7 +43,7 @@ You probably want to read the documentation in the following order:
 
 ### Documentation contribution
 
-We use the ["hypha-docs"](https://github.com/HyphaApp/hypha-docs/) Github repository, [Gitbook](http://gitbook.com/) to create and manage this [docs.hypha.app](docs.hypha.app) website.
+We use the [hypha-docs](https://github.com/HyphaApp/hypha-docs/) Github repository, [Gitbook](http://gitbook.com/) to create and manage this [docs.hypha.app](docs.hypha.app) website.
 
 **MORE TO-DO**
 
