@@ -41,6 +41,7 @@ ___
 - create, edit, and submit own applications
 - contact fund staff regarding own application
 - submit invoice/request for fund dispersal
+
 > ℹ️ &nbsp;*Account created automatically when user applies to specific fund/round*
  
 <br>
@@ -85,6 +86,7 @@ For example, current Hypha whitelabel includes the following roles, which were c
 - **Team Admin**
 
 
+<br>
 <br>
 
 > ### ⚠️ If you notice errors on this page, or would like to see content added, please: 
