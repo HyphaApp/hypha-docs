@@ -9,7 +9,7 @@
 <br>
 
 ## Step 2: Click the "My [Organization Name]" button in the upper-right corner of the screen
-![Screenshot of top banner on main page of sandbox.opentech.fund.  Page has "Open Technology Fund" logo in upper left, across top are links to "Funds," "Labs," "Results," "News," "About" and "Search" (a magnifying glass icon).  Two buttons in the upper right show "(person icon) My SB" and "Select Language (dropdown arrow)"](./images/Documentation screenshots/Sandbox Screenshots/Sandbox_homepage.png)
+![Screenshot of top banner on main page of sandbox.opentech.fund.  Page has "Open Technology Fund" logo in upper left, across top are links to "Funds," "Labs," "Results," "News," "About" and "Search" (a magnifying glass icon).  Two buttons in the upper right show "(person icon) My SB" and "Select Language (dropdown arrow)"](images/Sandbox_homepage.png)
 
 <br>
 
