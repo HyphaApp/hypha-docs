@@ -17,7 +17,7 @@
 * communicate with Applicants
 * disburse funds\(?\)
 
-> ℹ️  _Account created in deployment_
+> ℹ️  _Account created during deployment_
 
 ### A **Reviewer** can:
 
@@ -25,7 +25,7 @@
 * complete Review Forms for application\(s\)
 * communicate with applicants \(?\)
 
-> ℹ️  _Account reated by **Staff** & assigned to either "Fund" or specific application\(s\)_
+> ℹ️  _Account created by **Staff** & assigned to either "Fund" or specific application\(s\)_
 
 ### An **Applicant** can:
 
@@ -38,7 +38,7 @@
 ### **Finance** \(under development\) can:
 
 * access projects, invoices, & reports
-* additional capabilities to be added
+* *additional capabilities to be added*
 
 > ℹ️  _Account created by **Staff**_
 
@@ -54,7 +54,7 @@
 ### **Approver**
 
 * If assigned with **Staff** role, can approve applications
-* If assigned with **Finance** role, can approve invoices
+* If assigned with **Finance** role, can approve invoices/contracts
 
 > ℹ️  _This role is an add-on that allows users additional capabilities_
 
