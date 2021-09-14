@@ -65,6 +65,18 @@ For example, current Hypha whitelabel includes the following roles, which were c
 * **Community Reviewer**
 * **Team Admin**
 
+## Assigning Roles
+
+**Staff** (or **Admin**) can either assign roles when a user account is created, or can add/modify roles for existing users.
+
+### Creating New Users & Assigning Roles
+
+<br>
+
+### Changing Existing User Roles
+
+<br>
+
 > ### ⚠️ If you notice errors on this page, or would like to see content added, please:
 >
 > * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/d18f0a73a801778bd0eae53bce657858317053ba/gettingstarted_overview/we.hypha.app)  
@@ -74,5 +86,5 @@ For example, current Hypha whitelabel includes the following roles, which were c
 >
 > * post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
 >
->   **Make sure to include a link to this page in your post**
+> **Make sure to include a link to this page in your post**
 
