@@ -1,34 +1,26 @@
-> ## 🚧 Page under construction🚧<br>
-> *check back for updates & [contact us](we.hypha.app) with questions/feedback*
-
 # Logging in to Hypha
 
-> ℹ️  The information on this page uses screenshots from a test version of Hypha. The user interface in your implementation of Hypha may look different.
+> ### 🚧 Page under construction🚧
+>
+> _check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted_overview/we.hypha.app) _with questions/feedback_
 
-<br>
+## Logging in to Hypha
 
-## Step 1: Navigate to the organization's application page
+> ℹ️ The information on this page uses screenshots from a test version of Hypha. The user interface in your implementation of Hypha may look different.
+
+### Step 1: Navigate to the organization's application page
 
 _Often this is \[yourorg.hypha.app\], but the web address may be different_
 
-## Step 2: Click the "My \[Organization Name\]" button in the upper-right corner of the screen
+### Step 2: Click the "My \[Organization Name\]" button in the upper-right corner of the screen
 
-![Screenshot of top banner on main page of sandbox.opentech.fund.  Page has &quot;Open Technology Fund&quot; logo in upper left, across top are links to &quot;Funds,&quot; &quot;Labs,&quot; &quot;Results,&quot; &quot;News,&quot; &quot;About&quot; and &quot;Search&quot; \(a magnifying glass icon\).  Two buttons in the upper right show &quot;\(person icon\) My SB&quot; and &quot;Select Language \(dropdown arrow\)&quot;.  The "My SB" button is the button to be clicked in Step 2. ](../.gitbook/assets/sandbox_homepage.png)
+### Step 3:
 
-<br>
-
-## Step 3: 
-![Screenshot of ](../.gitbook/assets/sandbox_loginpage.png)
-
-<br>
-<br>
-
-> ### ⚠️ If you notice errors on this page, or would like to see content added, please:
+> #### ⚠️ If you notice errors on this page, or would like to see content added, please:
 >
 > * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/dc7c848168f5ba181d615fe204f7b09366156a36/gettingstarted_overview/we.hypha.app)  
 >
->
->   OR
+> OR
 >
 > * post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
 >

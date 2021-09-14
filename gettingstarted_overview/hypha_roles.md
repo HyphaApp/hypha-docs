@@ -17,7 +17,7 @@
 * communicate with Applicants
 * disburse funds\(?\)
 
-> ℹ️  _Account created during deployment_
+> ℹ️ _Account created during deployment_
 
 ### A **Reviewer** can:
 
@@ -25,7 +25,7 @@
 * complete Review Forms for application\(s\)
 * communicate with applicants \(?\)
 
-> ℹ️  _Account created by **Staff** & assigned to either "Fund" or specific application\(s\)_
+> ℹ️ _Account created by **Staff** & assigned to either "Fund" or specific application\(s\)_
 
 ### An **Applicant** can:
 
@@ -33,14 +33,14 @@
 * contact fund staff regarding own application
 * submit invoice/request for fund dispersal
 
-> ℹ️  _Account created automatically when user applies to specific fund/round_
+> ℹ️ _Account created automatically when user applies to specific fund/round_
 
 ### **Finance** \(under development\) can:
 
 * access projects, invoices, & reports
-* *additional capabilities to be added*
+* _additional capabilities to be added_
 
-> ℹ️  _Account created by **Staff**_
+> ℹ️ _Account created by **Staff**_
 
 ## Secondary Roles
 
@@ -49,14 +49,14 @@
 * Can see, edit, and communicate about a specific application
 * Used when two or more people are working together on an application; one applicant gets **Applicant** role, and additional applicants get this role
 
-> ℹ️  _This role is created by Staff and associated with a specific application_
+> ℹ️ _This role is created by Staff and associated with a specific application_
 
 ### **Approver**
 
 * If assigned with **Staff** role, can approve applications
 * If assigned with **Finance** role, can approve invoices/contracts
 
-> ℹ️  _This role is an add-on that allows users additional capabilities_
+> ℹ️ _This role is an add-on that allows users additional capabilities_
 
 ### If your organization needs roles with different permissions than those listed here, these can be created and permissions can be set in Wagtail by the person deploying Hypha for your organization.
 
@@ -67,22 +67,17 @@ For example, current Hypha whitelabel includes the following roles, which were c
 
 ## Assigning Roles
 
-**Staff** (or **Admin**) can either assign roles when a user account is created, or can add/modify roles for existing users.
+**Staff** \(or **Admin**\) can either assign roles when a user account is created, or can add/modify roles for existing users.
 
 ### Creating New Users & Assigning Roles
 
-<br>
-
 ### Changing Existing User Roles
-
-<br>
 
 > ### ⚠️ If you notice errors on this page, or would like to see content added, please:
 >
 > * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/d18f0a73a801778bd0eae53bce657858317053ba/gettingstarted_overview/we.hypha.app)  
 >
->
->   OR
+> OR
 >
 > * post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
 >
