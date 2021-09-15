@@ -1,4 +1,7 @@
 # Roles in Hypha
+> ### 🚧 Page under construction🚧
+>
+> _check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted_overview/we.hypha.app) _with questions/feedback_
 
 ### **Roles** refer  to _different kinds of users_ who can do different things \(i.e. have specific "permissions"\)
 
@@ -70,8 +73,13 @@ For example, current Hypha whitelabel includes the following roles, which were c
 **Staff** \(or **Admin**\) can either assign roles when a user account is created, or can add/modify roles for existing users.
 
 ### Creating New Users & Assigning Roles
+_Information to be added_
+<br>
 
 ### Changing Existing User Roles
+_Information to be added_
+
+<br>
 
 > ### ⚠️ If you notice errors on this page, or would like to see content added, please:
 >
