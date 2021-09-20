@@ -1,0 +1,11 @@
+# How to create new users in Hypha
+
+The first user account is created when you install Hypha with this command:
+
+python manage.py createsuperuser
+    - WHAT PERMISSIONS DOES THIS USER HAVE?  Asked frjo in Zulip 9/17
+
+
+Creating additional users and assigning them Roles is done in Wagtail by someone with the Staff role
+
+STEPS FOR THIS
