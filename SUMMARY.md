@@ -5,6 +5,8 @@
   * [Stand Alone](deployment/stand-alone.md)
   * [Heroku](deployment/heroku.md)
   * [Docker](deployment/docker.md)
+* [Configuration](configuration/README.md)
+  * [base.py](configuration/base.py.md)
 * [Contributing](contributing/README.md)
   * [Code of Conduct](contributing/codeofconduct.md)
   * [System principles](contributing/systemprinciples.md)
