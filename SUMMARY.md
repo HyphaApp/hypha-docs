@@ -18,8 +18,9 @@
   * [Testing](contributing/testing.md)
 * [Maintenance](maintenance/README.md)
   * [Quarterly Milestone Rebase](maintenance/quarterlymilestonerebase.md)
-* [Administration](administration/administration.md)
+* [Administration](administration.md)
 * [User Documentation](gettingstarted_overview/README.md)
   * [Getting Started for Staff](gettingstarted_overview/gettingstarted_staff.md)
   * [Logging in to Hypha](gettingstarted_overview/howto_login.md)
-  * [Roles in Hypha](gettingstarted_overview/howto_roles.md)
+  * [Roles in Hypha](gettingstarted_overview/hypha_roles.md)
+

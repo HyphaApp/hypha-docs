@@ -1,6 +1,11 @@
 # Getting Started for Staff
 
 ### _Understanding how Hypha integrates into your organization's workflow_
+<br>
+
+> ### 🚧 Page under construction🚧
+>
+> _Check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted_overview/we.hypha.app) _with questions/feedback_
 
 <br>
 
@@ -14,8 +19,6 @@
 6. Specify **review criteria**
 7. **Assign reviewers** to received applications
 8. Review applications & **make decisions** about which projects to fund
-
-<br>
 
 ## Workflow in Hypha:
 
@@ -34,5 +37,14 @@
 
 <br>
 
-### _Next: Understanding Roles in Hypha_
+> #### ⚠️ If you notice errors on this page, or would like to see content added, please:
+>
+> * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/dc7c848168f5ba181d615fe204f7b09366156a36/gettingstarted_overview/we.hypha.app)  
+>
+> OR
+>
+> * post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
+>
+>   **Make sure to include a link to this page in your post**
+
 
