@@ -30,14 +30,21 @@ _Often this is \[your-org-name.hypha.app\], but the web address may be different
 
 <br>
 
-> ### Note: Your login credentials should have been provided to you in an email sent by the system when your account was created.  
+> ### **Note:** Your login credentials should have been provided to you in an email sent by the system when your account was created.  
 > <br>
 > 
-> If you do not know them, you should:
+> *If you do not know them, you should:*
 >  1.  Try clicking the "Forgot your password?" link just above the "Login" button
->  2. 
+>  2. Contact the program manager (Applicants) or the organizational staff member (Reviewers, Staff) in charge of managing account information.
 
 <br>
+
+
+On successfully logging in, you should be directed to your "Dashboard" - what this page looks like is different depending on your [Role](gettingstarted_overview/hypha_roles.md):
+ - **Applicants** see the "active submissions" and a button to "submit a new application"
+ - **Reviewers** see applications "Waiting for your review" and "Your previous reviews"
+ - **Staff** see "Submissions waiting for your review," "Live projects under your management," and "Requests for payment requiring your attention." There is also a link to the Wagtail editing platform, which allows for editing of application content, timing, and users.
+
 <br>
 
 

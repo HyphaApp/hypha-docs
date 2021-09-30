@@ -1,11 +1,34 @@
 # How to create new users in Hypha
 
+> ### 🚧 Page under construction🚧
+>
+> _Check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted_overview/we.hypha.app) _with questions/feedback_
+
+<br>
+
 The first user account is created when you install Hypha with this command:
 
 python manage.py createsuperuser
-    - WHAT PERMISSIONS DOES THIS USER HAVE?  Asked frjo in Zulip 9/17
 
+This is an "administrator" role, a default Django role that bypasses any access restrictions, like root on a Unix server.
+
+This role should only be used by the person implementing Hypha for your organization, who may either be part of the organization or an external contractor.
 
 Creating additional users and assigning them Roles is done in Wagtail by someone with the Staff role
 
 STEPS FOR THIS
+> ℹ️ Only users with the ["Staff"](gettingstarted_overview/hypha_roles.md) Role can do this_
+
+## From the Dashboard, click the "Apply admin"  
+
+
+
+> ### ⚠️ If you notice errors on this page, or would like to see content added, please:
+>
+> * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/d18f0a73a801778bd0eae53bce657858317053ba/gettingstarted_overview/we.hypha.app)  
+>
+> OR
+>
+> * post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
+>
+> **Make sure to include a link to this page in your post**
