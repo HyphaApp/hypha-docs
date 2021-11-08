@@ -1,7 +1,6 @@
 ---
 description: >-
-  Everything you need to know about Hypha. Within are information and links to
-  help you get started with Hypha. Enjoy!
+  Everything you need to know about Hypha. Within are information and links to help you get started with Hypha. Enjoy!
 ---
 
 # Welcome to Hypha's Documentation
