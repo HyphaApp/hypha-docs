@@ -2,7 +2,7 @@
 
 _This page provides instructions for folks using (or considering) Hypha._
 
-## How are you using Hypha?
+## Who are you?
 
 _Suggested starting points for different Hypha users:_
 
@@ -16,6 +16,8 @@ _Suggested starting points for different Hypha users:_
   * See [_Deployment Documentation_](https://github.com/HyphaApp/hypha-docs/tree/6dc9369f007edcaf35909d4e14bf88088949e74a/gettingstarted\_overview/deployment/README.md) or [_Configuration Documentation_](gettingstarted\_overview/configuration/)
 * I want to **contribute to Hypha code**
   * See [_Contributing Documentation_](https://github.com/HyphaApp/hypha-docs/tree/6dc9369f007edcaf35909d4e14bf88088949e74a/gettingstarted\_overview/contributing/README.md)
+* I hold more than one of the above roles and I don't know which "Getting Started" to pick!
+  * Introduce yourself on one or more of our [Communities](gettingstarted\_overview/commune-with-us.md), and our community members can help point you in the right direction!
 
 ## Commonly Visited Pages
 

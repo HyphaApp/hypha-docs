@@ -3,6 +3,7 @@
 * [Getting Started](README.md)
   * [Key concepts & user types](gettingstarted\_overview/hypha\_roles.md)
   * [First steps](gettingstarted\_overview/howto\_login.md)
+  * [Commune with us!](gettingstarted\_overview/commune-with-us.md)
   * [\[Getting Help\]](gettingstarted\_overview/getting-help.md)
 * [Applicants](applicants/README.md)
   * [\[Tutorials\]](applicants/tutorials.md)
