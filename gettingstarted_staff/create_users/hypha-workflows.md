@@ -10,7 +10,12 @@ _Description of the workflow_
 
 _Examples of the kinds of requests for proposals_ &#x20;
 
-_Explanation of each of the "Status" nodes (what is_&#x20;
+_Explanation of each of the "Status" nodes (Stages)_
+
+* _What does it mean_
+* _Who needs to view the proposal/application at each stage?_
+* _Is there automatic routing? (I think the answer to this is no)_
+* _What steps must be taken (and who needs to take those steps) to advance proposal to next stage?_
 
 __
 
