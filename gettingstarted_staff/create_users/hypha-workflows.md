@@ -8,14 +8,14 @@ Hypha has four built-in workflows that you can select from when you create a new
 
 _Description of the workflow_
 
-_Examples of the kinds of requests for proposals_ &#x20;
+_Examples of the kinds of requests for proposals we expect_&#x20;
 
 _Explanation of each of the "Status" nodes (Stages)_
 
-* _What does it mean_
-* _Who needs to view the proposal/application at each stage?_
-* _Is there automatic routing? (I think the answer to this is no)_
-* _What steps must be taken (and who needs to take those steps) to advance proposal to next stage?_
+* _What does it mean?_
+* _Users: Who needs to view the proposal/application at each stage?_
+  * _Is there automatic routing? (I think the answer to this is no)_
+* _Actions: What steps must be taken (and who needs to take those steps) to advance proposal to next stage?_
 
 __
 
