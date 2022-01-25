@@ -1,6 +1,6 @@
 # Staff
 
-### _Understanding how Hypha integrates into your organization's workflow_
+### _Understanding how Hypha integrates into your organization's granting process_
 
 \
 
@@ -12,7 +12,7 @@
 \
 
 
-## Granting organizations' workflow:
+## Granting organizations' process:
 
 1. Determine **kind of project** to be funded (e.g. grantmaking categories or thematic areas)
 2. Outline **expected steps** in application process (e.g. # of stages)
@@ -23,7 +23,9 @@
 7. **Assign reviewers** to received applications
 8. Review applications & **make decisions** about which projects to fund
 
-## Workflow in Hypha:
+##
+
+## Steps in Hypha:
 
 * First, you create **"Forms"** for:
   * _applicants_ (application forms) \[4]
@@ -38,8 +40,7 @@
   * the _request for proposals_ \[5] (_this may be incorporated with \[1]_)
   * a _link to apply_ (this links to the **Round**)
 
-\
-
+## &#x20;
 
 > **⚠️ If you notice errors on this page, or would like to see content added, please:**
 >

@@ -26,7 +26,7 @@ This role should only be used by the person implementing/deploying Hypha for you
 
 Creating additional users and assigning them Roles is done in Wagtail by someone with the Staff role.
 
-> ℹ️ _Only users with the_ [_"Staff"_](gettingstarted\_overview/hypha\_roles.md) _Role can do this_
+> ℹ️ _Only users with the_ [_"Staff"_](../../gettingstarted\_overview/gettingstarted\_overview/hypha\_roles.md) _Role can do this_
 
 ### 1. From the Dashboard, click the "Apply admin" button
 
@@ -48,7 +48,7 @@ In the \[NAME] Tab, add the user's name and contact email address
 
 ### 5. Select user Roles
 
-In the \[Roles] tab, specify the level of access you want your user to have by giving them specific Roles (see [Roles documentation](gettingstarted\_overview/hypha\_roles.md%C3%9F) for more information)
+In the \[Roles] tab, specify the level of access you want your user to have by giving them specific Roles (see [Roles documentation](../../gettingstarted\_overview/gettingstarted\_overview/hypha\_roles.md%C3%9F) for more information)
 
 ### 6. Finish by clicking a button, I'm sure (just have to look again to remember what it's called)
 
