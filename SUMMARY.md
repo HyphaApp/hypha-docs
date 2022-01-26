@@ -16,7 +16,7 @@
   * [\[How-tos\]](reviewers/how-tos.md)
 * [Staff](gettingstarted\_overview/gettingstarted\_staff.md)
   * [Create a new User](gettingstarted\_staff/create\_users/README.md)
-    * [Hypha Workflows](gettingstarted\_staff/create\_users/hypha-workflows.md)
+    * [Workflows & Navigation](gettingstarted\_staff/create\_users/workflows-and-navigation.md)
 * [Administrators](administrators/README.md)
   * [Deployment](deployment/README.md)
     * [Stand Alone](deployment/stand-alone.md)
