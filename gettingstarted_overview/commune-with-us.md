@@ -6,9 +6,11 @@ description: >-
 
 # Commune with us!
 
-### We.hypha
+### [We.hypha](https://we.hypha.app)
 
 This is our community forum powered by [discourse](https://www.discourse.org). It is a place where the wider Hypha community come together to discuss topics relating to your own deployment/instance of Hypha, the Hypha core OSS and any technical, product or informational needs of Hypha generally. We also keep our meeting notes in forum posts and our requests for collaboration on features and improvements can happen.
+
+Stop by and introduce yourself by replying to[ this post!](https://we.hypha.app/t/welcome-to-the-hypha-lounge/)
 
 The community forum is also where you can [introduce yourself if you are new to Hypha](https://we.hypha.app/t/welcome-to-the-hypha-lounge/8/5) and where you can [raise proposals for the OSS Hypha community](https://we.hypha.app/t/sociocracy-proposal-framework/171).
 
