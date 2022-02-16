@@ -5,13 +5,13 @@
 Make sure you have these things installed on your system:
 
 * Git
-* Python 3.8.x
+* Python 3.9.x
   * python3-venv \(to setup virtual enviroment\)
   * python3-pip \(to install python packages\)
 * PostgreSQL 12.x
   * libpq-dev \(on Linux at least\)
 * Apache or Nginx
-* Node 12.x
+* Node 16.x
 
 On Linux install them with your normal package manager. On macOS [Homebrew](https://brew.sh/) is an excellent option.
 
@@ -346,7 +346,7 @@ $ python manage.py createsuperuser
 Collect all the static files.
 
 ```text
-$ python manage.py collectstatic --noinput
+$ python manage.py collectstatic --noinput --settings=hypha.settings.dev
 ```
 
 \(If this command complain about missing `static_compiled` directory, run the gulp command above first.\)

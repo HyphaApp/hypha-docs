@@ -13,8 +13,8 @@ This process was tested on Ubuntu 18.04LTS. It should work on any Debian-based s
 These are the basic packages needed before you can start the installation process.
 
 * python3-pip and python3-venv - install using  `sudo apt-get install python3-pip python3-venv`
-* postgresql \(version 11.x or 12.x\) use `sudo apt-get install postgresql postgresql-contrib postgresql-server-dev-11`
-* to install nodejs \(version v12.x\), use nodesource. Add the PPA to your sources list by running this script: `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` then `sudo apt-get install nodejs`
+* postgresql \(version 12.x\) use `sudo apt-get install postgresql postgresql-contrib postgresql-server-dev-12`
+* to install nodejs \(version v16.x\), use nodesource. Add the PPA to your sources list by running this script: `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` then `sudo apt-get install nodejs`
 
 ### Python virtual environment
 
