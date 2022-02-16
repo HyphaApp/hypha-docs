@@ -40,6 +40,5 @@
     * [Security](contributing/security.md)
     * [Testing](contributing/testing.md)
   * [Contributing to documentation](contributing/contributing-to-documentation.md)
-*
-*
 * [Quarterly Milestone Rebase](maintenance/quarterlymilestonerebase.md)
+* [Frequently Asked Questions (FAQs)](frequently-asked-questions-faqs.md)
