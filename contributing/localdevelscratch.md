@@ -74,7 +74,11 @@ $ pip install -r requirements-dev.txt
 
 If any `requirements*.txt` file have been updated you will need to rerun this command to get the updated/added packages.
 
-**Note for MacOS users:** On more recent systems like Mojave, you may need to run `sudo installer -pkg /Library/Developer/CommandLineTools/Packages/macOS_SDK_headers_for_macOS_10.14.pkg -target /` before installing with pip for psycopg2 to install correctly.
+**Note for macOS users:** If `pip` does not want to build "psycopg2" you need to add openssl to your "LIBRARY_PATH". Assuming you have openssl installed with homebrew the following should work.
+
+```text
+$ export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
+```
 
 ## Install Node packages
 
