@@ -1,14 +1,19 @@
 # Frequently Asked Questions (FAQs)
 
-**Frequently Asked Questions (FAQ)**
+**How can I learn more about Hypha?**
 
-1.  **Is NEW adopter onboarding available?**
+1. One of our Hypha maintainers (the folks who are working on building Hypha) can schedule a 1:1 meeting with you to talk about Hypha's capabilities and the needs of your organization and whether Hypha might be right for you. You can request this by replying to [this post on our community forum](https://we.hypha.app/t/new-adopters-request-to-speak-to-hypha-oss-maintainers/253). \
+   \
+   _Any information you share with us will remain entirely confidential._\
+   __
+2. Check out our Getting Started documentation\
 
-    Yes, we will have a 1:1 meeting, new adopter onboarding documentation, online forum to access the Hypha community. During the 1:1 meeting we provide you with tips and guidance on how your funding mechanism could be steered through Hypha. The information on workflows, processes, documents you share with us is confidential and it is entirely up to your discretion.
+3.  Visit one of our online forums&#x20;
 
-    Please contact \[ ] if you would like to have a meeting or join this online forum
+    Please contact \[ ] if you would like to have a meeting or join this online forum\
 
-**2. How could I contribute to this open source project?**
+
+**How can I contribute to this open source project?**
 
 We are humbled and grateful for any code, design, documentation, bug reports, virtual hugs, and any other forms of contributions made to Hypha.
 
