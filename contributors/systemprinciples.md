@@ -2,7 +2,7 @@
 
 ## System principles
 
-The Open Technology Fund \(OTF\) commissioned Hypha with the aim that the platform would fulfil their core needs and provide a platform for other organisations to better administer their funds.
+The Open Technology Fund \(OTF\) originally commissioned Hypha with the aim that the platform would fulfil their core needs and provide a platform for other organisations to better administer their funds.
 
 As such the application was built with the following core principles in mind and this should provide some reasoning as to why several decisions in the code were made, future development should keep these in mind as the system evolves.
 
