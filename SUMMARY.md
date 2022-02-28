@@ -42,6 +42,6 @@
     * [Testing](contributors/code/testing.md)
   * [Contributing to documentation](contributors/contributing-to-documentation.md)
 * [Understand/Learn More](understandlearnmore/README.md)
-* [Hypha Stakeholders](understandlearnmore/HyphaStakeholders.md)
-* [Quarterly Milestone Rebase](understandlearnmore/quarterlymilestonerebase.md)
+  * [Hypha Stakeholders](understandlearnmore/HyphaStakeholders.md)
+  * [Quarterly Milestone Rebase](understandlearnmore/quarterlymilestonerebase.md)
 * [Frequently Asked Questions (FAQs)](frequently-asked-questions-faqs.md)
