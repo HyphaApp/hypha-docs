@@ -1,6 +1,6 @@
 # Table of contents
 
-* [README](README.md)
+* [Hypha Documentation](README.md)
 * [Getting Started](gettingstarted/README.md)
   * [First steps](gettingstarted/first-steps.md)
   * [Commune with us!](gettingstarted/commune-with-us.md)
