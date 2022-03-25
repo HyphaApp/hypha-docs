@@ -39,6 +39,13 @@ $ git clone https://github.com/HyphaApp/hypha.git hypha
 
 $ cd hypha
 ```
+### Create media directory
+
+In production media is stored on AWS S3 but for local development you need a "media" directory.
+
+```text
+$ mkdir media
+```
 
 OBS! Everything from now on will happen inside the hypha directory.
 
@@ -86,12 +93,6 @@ All the needed Node packages are listed in `package.json`. Install them with thi
 
 ```text
 $ npm install
-```
-
-You will also need the gulp task manager. On some systems you might need to run this command with `sudo`.
-
-```text
-$ npm install -g gulp-cli
 ```
 
 ## The Postgres database
@@ -151,6 +152,8 @@ Copy the local settings example file.
 ```text
 $ cp -p hypha/settings/local.py.example hypha/settings/local.py
 ```
+
+(It is also possible to use a local `.env` file since Hypha use the [environs](https://github.com/sloria/environs) package.)
 
 You most likely want to set these:
 
@@ -275,32 +278,30 @@ server {
 
 ## Front end development
 
-See the `gulpfile.js` file for a complete list of commands. Here are the most common in development.
+See the `package.json` file for a complete list of commands. Here are the most common in development.
 
 This will watch all sass and js files for changes and build them with css maps. It will also run the "collecstatic" command, useful when running the site with a production server and not the built in dev server.
 
 ```text
-$ gulp watch
+$ npm run watch
 ```
 
-If you are working on the React components then it may be worth just using one of the two following commands. They should do the same thing, but the npm command calls Webpack direct.
+To build all assets for development use this command.
 
-First you also need to set "API\_BASE\_URL" to the correct value.
+```text
+$ npm run dev:build
+```
+
+If you are working on the React components you also need to set "API\_BASE\_URL" to the correct value.
 
 ```text
 $ export API_BASE_URL='http://apply.hypha.test/api'
 ```
 
-```text
-$ gulp watch:app
-# OR
-$ npm run webpack-watch
-```
-
 To build the assets which get deployed, use the following. The deployment scripts will handle this, and the files should not be committed.
 
 ```text
-$ gulp build
+$ npm run build
 ```
 
 ## Finally, the app itself
@@ -353,7 +354,7 @@ Collect all the static files.
 $ python manage.py collectstatic --noinput --settings=hypha.settings.dev
 ```
 
-\(If this command complain about missing `static_compiled` directory, run the gulp command above first.\)
+(If this command complain about missing `static_compiled` directory, run the `npm run dev:build` command above first.)
 
 Set the addresses and ports of the two wagtail sites.
 
@@ -379,9 +380,9 @@ $ python manage.py test --parallel --keepdb --settings=hypha.settings.test
 
 ### Administration
 
-* The Django Administration panel: [http://apply.hypha.test/django-admin/](http://apply.hypha.test/django-admin/)
 * The Apply dashboard: [http://apply.hypha.test/dashboard/](http://apply.hypha.test/dashboard/)
 * The Apply Wagtail admin: [http://apply.hypha.test/admin/](http://apply.hypha.test/admin/)
+* The Django Administration panel: [http://apply.hypha.test/django-admin/](http://apply.hypha.test/django-admin/)
 
 Use the email address and password you set in the `createsuperuser` step above to login.
 
@@ -452,4 +453,3 @@ case $1 in
   ;;
 esac
 ```
-

@@ -27,6 +27,14 @@ $ git clone https://github.com/HyphaApp/hypha.git hypha
 $ cd hypha
 ```
 
+### Create media directory
+
+In production media is stored on AWS S3 but for local development you need a "media" directory.
+
+```text
+$ mkdir media
+```
+
 OBS! Everything from now on will happen inside the hypha directory.
 
 ## Docker
@@ -59,7 +67,7 @@ $ docker-compose up
 
 Go to [http://hypha.test:8090/](http://hypha.test:8090/)
 
-### Run commands in  the docker environment
+### Run commands in the docker environment
 
 To get bash shell on the container that runs the Django app, use this command.
 
