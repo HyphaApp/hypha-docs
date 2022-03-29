@@ -31,6 +31,7 @@
     * [production.py](administrators/configuration/production.py.md)
     * [local.py](administrators/configuration/local.py.md)
     * [example.py](administrators/configuration/example.py.md)
+  * [Customizing Hypha](administrators/customizing-hypha.md)
 * [Developers](developers/README.md)
   * [Local Development with Docker](developers/localdeveldocker.md)
   * [Local Development from Scratch](developers/localdevelscratch.md)
