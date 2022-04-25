@@ -43,7 +43,7 @@
     * [Implementation Details](contributors/code/implementationdetails.md)
     * [Security](contributors/code/security.md)
     * [Testing](contributors/code/testing.md)
-  * [Contributing to documentation](contributing/contributing-to-documentation.md)
+  * [📑 Contribute to Documentation](contributing/contributing-to-documentation.md)
 * [Understand/Learn More](understandlearnmore/README.md)
   * [Hypha Stakeholders](understandlearnmore/HyphaStakeholders.md)
   * [Quarterly Milestone Rebase](understandlearnmore/quarterlymilestonerebase.md)
