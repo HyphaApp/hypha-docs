@@ -30,12 +30,4 @@
 
 ##
 
-> **⚠️ If you notice errors on this page, or would like to see content added, please:**
->
-> * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/dc7c848168f5ba181d615fe204f7b09366156a36/gettingstarted\_overview/we.hypha.app)
->
-> OR
->
-> *   post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
->
->     **Make sure to include a link to this page in your post**
+> **⚠️** If you notice errors on this page, or would like to see content added, please post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
