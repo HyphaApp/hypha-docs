@@ -5,7 +5,7 @@ description: >-
   admin area. Clicking on the “Apply” menu item opens u
 ---
 
-# Page 1
+# Your First Application
 
 :wrench:[**Setting up Funds and Labs**](broken-reference)****
 
@@ -16,8 +16,6 @@ description: >-
 ****
 
 These menu elements will be referred to using “\[ ]” to indicate the button and “>” to indicate a subsequent menu item.
-
-![](broken-reference)
 
 
 
