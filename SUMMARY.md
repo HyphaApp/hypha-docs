@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
-  * [Your first Hypha site](gettingstarted/localdeveldocker/README.md)
-    * [Local Development from Scratch](gettingstarted/localdeveldocker/localdevelscratch.md)
+  * [Local Development with Docker](developers/localdeveldocker.md)
+    * [Local Development from Scratch](developers/localdevelscratch.md)
   * [Deployment](administrators/deployment/README.md)
     * [Stand Alone](administrators/deployment/stand-alone.md)
     * [Heroku](administrators/deployment/heroku.md)
@@ -13,7 +13,7 @@
       * [production.py](administrators/configuration/production.py.md)
       * [local.py](administrators/configuration/local.py.md)
       * [example.py](administrators/configuration/example.py.md)
-    * [Create a new User](gettingstarted/deployment/createusers.md)
+    * [Create a new User](developers/createusers.md)
 * [Staff](staff/README.md)
   * [Key concepts & user types](staff/hypha\_roles.md)
   * [Create a user account](staff/create-a-user-account.md)

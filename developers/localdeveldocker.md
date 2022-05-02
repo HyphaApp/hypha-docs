@@ -1,6 +1,4 @@
-# Your first Hypha site
-
-## Local Development with Docker
+# Local Development with Docker
 
 Require most recent version of [Docker](https://www.docker.com/get-started).
 
