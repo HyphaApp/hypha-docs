@@ -16,5 +16,4 @@
     * Created previously in stage 2
     * Number validated against the workflow chosen above (i.e. if it is a concept/proposal workflow 2 forms must be selected)
   * Confirmation email
-* Previewing the fund (red below) allows you to see what the application form will look like when it is live
-* [Publishing the fund ](broken-reference)(yellow) is required to make sure that the application form is publicly visible to users.
+* [Publishing the fund ](broken-reference)is required to make sure that the application form is publicly visible to users.
