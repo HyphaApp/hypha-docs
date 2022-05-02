@@ -60,16 +60,10 @@
 
 > ℹ️ _This role is an add-on that allows users additional capabilities_
 
-***
-
-\
-
-
 ## Additional Roles
 
 ### New roles can be created and permissions (capabilities) for these roles can be set in Wagtail by the person deploying Hypha for your organization.
 
-\
 
 
 _For example, current Hypha whitelabel includes the following roles, which were created for different Hypha adopters:_
@@ -77,35 +71,3 @@ _For example, current Hypha whitelabel includes the following roles, which were 
 * **Community Reviewer**
 * **Team Admin**
 
-***
-
-## Assigning Roles to Users
-
-**Staff** (or **Admin**) can either assign roles when a user account is created, or can add/modify roles for existing users.
-
-\
-
-
-### Creating New Users & Assigning Roles
-
-_See How to Create New Users (**link to be added**) for how to assign roles when user accounts are first created_
-
-\
-
-
-### Changing Existing User Roles
-
-_Information to be added_
-
-\
-
-
-> #### ⚠️ If you notice errors on this page, or would like to see content added, please:
->
-> * post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/d18f0a73a801778bd0eae53bce657858317053ba/gettingstarted\_overview/we.hypha.app)
->
-> OR
->
-> * post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
->
-> **Make sure to include a link to this page in your post**
