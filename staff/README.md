@@ -28,6 +28,6 @@
   * the _request for proposals_ \[5] (_this may be incorporated with \[1]_)
   * a _link to apply_ (this links to the **Round**)
 
-##
+
 
 > **⚠️** If you notice errors on this page, or would like to see content added, please post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues)
