@@ -1,19 +1,6 @@
 # How to Contribute
 
-First off, thanks for taking the time to contribute! Hypha is improved by a small community of developers, designers and users. We welcome your contributions. There are many ways to contribute to Hypha - code, design, documentation and translation.
-
-Before you start working however, please read our [code of conduct](https://docs.hypha.app/contributing/codeofconduct).
-
-You probably want to read the documentation in the following order:
-
-1. The [system principles](https://docs.hypha.app/contributing/systemprinciples) behind Hypha.
-2. [Implementation details](https://docs.hypha.app/contributing/implementationdetails)
-3. Choose one of the followng to get Hypha set-up in your local environment:
-   * a [local development docker instance](https://docs.hypha.app/contributing/localdeveldocker)
-   * installing [Hypha from scratch](https://docs.hypha.app/contributing/localdevelscratch)
-4. [How to run tests on Hypha](https://docs.hypha.app/contributing/testing)
-5. [How to sumit changes to the Hypha repo](https://docs.hypha.app/contributing/submittingchanges)
-6. [Reporting security issues with Hypha](https://docs.hypha.app/contributing/contributing/security)
+First off, thanks for taking the time to contribute! Hypha is improved by a small community of developers, designers and users. We welcome your contributions. There are many ways to contribute to Hypha - code, design, documentation and translation. Before you start working however, please read our [code of conduct](https://docs.hypha.app/contributing/codeofconduct).
 
 ### Documentation contribution
 
