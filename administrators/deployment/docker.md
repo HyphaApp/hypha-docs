@@ -10,7 +10,7 @@ You will need two domain to run this app. One for the public site and one for th
 
 ## Get the code
 
-```
+```text
 $ git clone https://github.com/HyphaApp/hypha.git hypha
 
 $ cd hypha
@@ -24,17 +24,17 @@ Everything from now on will happen inside the hypha directory.
 
 There are several files you will need to modify before you run docker-compose.
 
-* docker-compose:
+* docker-compose: 
   * change line `dockerfile: docker/Dockerfile.dev` to read `dockerfile: docker/Dockerfile.prod`
   * change ports in web section to '80:80'
 * Dockerfile.prod: in Environment variables section: add your domain.
-*   Move `nginx/hypha.conf` to `nginx/hypha-dev.conf` and move `nginx/hypha-prod.conf` to `nginx/hypha.conf`
+* Move `nginx/hypha.conf` to `nginx/hypha-dev.conf` and move `nginx/hypha-prod.conf` to `nginx/hypha.conf`
 
-    **Build the Docker images**
+  **Build the Docker images**
 
 Move to the "docker" directory.
 
-```
+```text
 $ cd docker
 ```
 
@@ -42,7 +42,7 @@ Run the docker compose command to build the images. This will take some time.
 
 If you need to rebuild the images to get a later version just run the "build" again.
 
-```
+```text
 $ docker-compose build
 ```
 
@@ -50,7 +50,7 @@ $ docker-compose build
 
 To start the docker containers you use the "up" command. This command you will use each time you want to start up and use this docker environment.
 
-```
+```text
 $ docker-compose up
 ```
 
@@ -58,11 +58,11 @@ $ docker-compose up
 
 Go to your domain - you should see the app deployed.
 
-### Run commands in the docker environment
+### Run commands in  the docker environment
 
 To get bash shell on the container that runs the Django app, use this command.
 
-```
+```text
 docker-compose exec py bash
 ```
 
@@ -72,7 +72,7 @@ Here you can issue django commands as normal. You might want to change the user 
 
 To get a shell on the container that runs Postgres, use this command.
 
-```
+```text
 docker-compose exec db bash
 ```
 
@@ -93,3 +93,4 @@ This setup is port 80 only. To set up an SSL certificate, you'd have to:
 * add port 443 to the nginx section of the docker-compose file
 * add a volume to hold your certs
 * add the certification info to the nginx configuration file
+

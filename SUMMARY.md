@@ -14,7 +14,7 @@
       * [local.py](administrators/configuration/local.py.md)
       * [example.py](administrators/configuration/example.py.md)
     * [Create a new User](developers/createusers.md)
-* [Staff](staff/README.md)
+* [Usage Guide](staff/README.md)
   * [Key concepts & user types](staff/hypha\_roles.md)
   * [Create a user account](staff/create-a-user-account.md)
   * [Workflows & Navigation](staff/workflows-and-navigation.md)

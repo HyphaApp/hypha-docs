@@ -1,16 +1,4 @@
-# Staff
-
-### _Understanding how Hypha integrates into your organization's granting process_
-
-\
-
-
-> #### 🚧 Page under construction🚧
->
-> _Check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted\_overview/we.hypha.app) _with questions/feedback._
-
-\
-
+# Usage Guide
 
 ## Granting organizations' process:
 
@@ -40,7 +28,7 @@
   * the _request for proposals_ \[5] (_this may be incorporated with \[1]_)
   * a _link to apply_ (this links to the **Round**)
 
-## &#x20;
+##
 
 > **⚠️ If you notice errors on this page, or would like to see content added, please:**
 >

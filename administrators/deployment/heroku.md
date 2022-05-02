@@ -25,7 +25,7 @@ Then so the following steps for each environment.
 5. BASIC\_AUTH\_PASSWORD
 6. DJANGO\_SETTINGS\_MODULE
 7. EMAIL\_HOST
-8. ON\_HEROKU=true (so correct production settings gets loaded)
+8. ON\_HEROKU=true \(so correct production settings gets loaded\)
 9. ORG\_LONG\_NAME
 10. ORG\_SHORT\_NAME
 11. ORG\_EMAIL
@@ -36,7 +36,7 @@ Then so the following steps for each environment.
 
 Generate secret key with:
 
-```
+```text
 python -c "from django.core.management.utils import get_random_secret_key; print(get_random_secret_key())"
 ```
 
@@ -47,7 +47,7 @@ python -c "from django.core.management.utils import get_random_secret_key; print
 5. Activate dynos to run your app. For dev and test the "Hobby" level works well. For production a "Standard-2X" with a dyno count of 2 and WEB\_CONCURRENCY set to 3 performance well.
 6. Run the following commands from the command line with the help of heroku-cli. If it's the first time you use heroku-cli you first need to login with `heroku login`.
 
-```
+```text
 $ heroku run python manage.py migrate -a [name-of-app]
 $ heroku run python manage.py createcachetable -a [name-of-app]
 $ heroku run python manage.py createsuperuser -a [name-of-app]
@@ -66,7 +66,7 @@ Set these settings as a minimum:
 
 * AWS\_ACCESS\_KEY\_ID
 * AWS\_SECRET\_ACCESS\_KEY
-* AWS\_STORAGE\_BUCKET\_NAME (most often same as AWS\_PUBLIC\_BUCKET\_NAME)
+* AWS\_STORAGE\_BUCKET\_NAME \(most often same as AWS\_PUBLIC\_BUCKET\_NAME\)
 * AWS\_PRIVATE\_BUCKET\_NAME
 * AWS\_PUBLIC\_BUCKET\_NAME
 
@@ -83,7 +83,7 @@ Versioning enabled. Default encryption enables AES-256
 
 CORS configuration:
 
-```
+```text
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
@@ -105,11 +105,11 @@ Versioning enabled.
 
 Access Control List:
 
-Public access -> Everyone -> List Yes
+Public access -&gt; Everyone -&gt; List Yes
 
 CORS configuration:
 
-```
+```text
 <?xml version="1.0" encoding="UTF-8"?>
 <CORSConfiguration xmlns="http://s3.amazonaws.com/doc/2006-03-01/">
 <CORSRule>
@@ -125,7 +125,7 @@ CORS configuration:
 
 Bucket policy:
 
-```
+```text
 {
     "Version": "2012-10-17",
     "Id": "Policy1562302603386",
@@ -148,3 +148,4 @@ Set:
 * MAILGUN\_API\_KEY
 
 And it should just work.
+

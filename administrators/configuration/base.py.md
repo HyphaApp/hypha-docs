@@ -1,147 +1,200 @@
-# base.py
+# base.py configuration parameters
 
-Here are the configuration parameters in base.py. These are largely django and wagtail settings. Those in _italics_ should be kept as they are, unless you have a compelling reason to change them.
+Here are the configuration parameters in base.py. These are largely django and wagtail settings. Those in *italics* should be kept as they are, unless you have a compelling reason to change them.
 
-_PROJECT\_DIR = os.path.dirname(os.path.dirname(os.path.abspath(**file**)))_ The directory the project is in _BASE\_DIR = os.path.dirname(PROJECT\_DIR)_ The base directory of the project _APP\_NAME = env.get('APP\_NAME', 'hypha')_ The name of the application
+*PROJECT_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))* The directory the project is in
+*BASE_DIR = os.path.dirname(PROJECT_DIR)* The base directory of the project
+*APP_NAME = env.get('APP_NAME', 'hypha')* The name of the application
 
 DEBUG = False/True : This will display detailed error pages when errors are encountered. Make `True` only in development/testing environments.
 
-_SECRET\_KEY = env\['SECRET\_KEY']_ The secret key should be a large random value, unique to one deployment, and not committed to source control _ALLOWED\_HOSTS = env\['ALLOWED\_HOSTS'].split(',')_ These are the hosts that this django installation is allowed to serve.
+*SECRET_KEY = env['SECRET_KEY']* The secret key should be a large random value, unique to one deployment, and not committed to source control
+*ALLOWED_HOSTS = env['ALLOWED_HOSTS'].split(',')* These are the hosts that this django installation is allowed to serve.
 
 ## Organisation name and e-mail address, used in e-mail templates etc. These are hypha-specific settings
 
-ORG\_LONG\_NAME = env.get('ORG\_LONG\_NAME', 'Acme Corporation') ORG\_SHORT\_NAME = env.get('ORG\_SHORT\_NAME', 'ACME') ORG\_EMAIL = env.get('ORG\_EMAIL', 'info@example.org') ORG\_GUIDE\_URL = env.get('ORG\_GUIDE\_URL', 'https://guide.example.org/')
+ORG_LONG_NAME = env.get('ORG_LONG_NAME', 'Acme Corporation')
+ORG_SHORT_NAME = env.get('ORG_SHORT_NAME', 'ACME')
+ORG_EMAIL = env.get('ORG_EMAIL', 'info@example.org')
+ORG_GUIDE_URL = env.get('ORG_GUIDE_URL', 'https://guide.example.org/')
 
 ## Email settings
+*EMAIL_HOST = env['EMAIL_HOST']* Name of host for emails being sent
 
-_EMAIL\_HOST = env\['EMAIL\_HOST']_ Name of host for emails being sent
+*EMAIL_PORT = int(env['EMAIL_PORT'])* Port used for sending emails
+*EMAIL_HOST_USER = env['EMAIL_HOST_USER']* Username for sending emails
+*EMAIL_HOST_PASSWORD = env['EMAIL_HOST_PASSWORD']* Password for sending emails
+*EMAIL_USE_TLS = True* Use TLS encryption
+*EMAIL_USE_SSL = True* Use SSL encryption
+*EMAIL_SUBJECT_PREFIX = env['EMAIL_SUBJECT_PREFIX']* Prefix for all subject lines
+*SERVER_EMAIL = DEFAULT_FROM_EMAIL = env['SERVER_EMAIL']* Default from address for emails
 
-_EMAIL\_PORT = int(env\['EMAIL\_PORT'])_ Port used for sending emails _EMAIL\_HOST\_USER = env\['EMAIL\_HOST\_USER']_ Username for sending emails _EMAIL\_HOST\_PASSWORD = env\['EMAIL\_HOST\_PASSWORD']_ Password for sending emails _EMAIL\_USE\_TLS = True_ Use TLS encryption _EMAIL\_USE\_SSL = True_ Use SSL encryption _EMAIL\_SUBJECT\_PREFIX = env\['EMAIL\_SUBJECT\_PREFIX']_ Prefix for all subject lines _SERVER\_EMAIL = DEFAULT\_FROM\_EMAIL = env\['SERVER\_EMAIL']_ Default from address for emails
-
-## Application definition _These are django configurations_
+## Application definition *These are django configurations*
 
 Details on these configurations can be found [here](https://docs.djangoproject.com/en/stable/ref/settings/)
 
-_INSTALLED\_APPS = \[ ... add any additional apps here]_ _MIDDLEWARE = \[... add any additional middleware here]_ _ROOT\_URLCONF = 'hypha.urls'_ _TEMPLATES = \[ ... add any additional templates here]_ _FORM\_RENDERER = 'django.forms.renderers.TemplatesSetting'_ _WSGI\_APPLICATION = 'hypha.wsgi.application'_
+*INSTALLED_APPS = [ ... add any additional apps here]*
+*MIDDLEWARE = [... add any additional middleware here]*
+*ROOT_URLCONF = 'hypha.urls'*
+*TEMPLATES = [ ... add any additional templates here]*
+*FORM_RENDERER = 'django.forms.renderers.TemplatesSetting'*
+*WSGI_APPLICATION = 'hypha.wsgi.application'*
 
 ## Database
-
 Find documentation on access to databases [here](https://docs.djangoproject.com/en/stable/ref/settings/#databases)
 
 DATABASES = { ... }
 
-## Cache _These settings should be left as they are unless you know to change them._
+## Cache *These settings should be left as they are unless you know to change them.*
 
-## Password validation _These settings should be left as they are unless you know to change them._
+## Password validation *These settings should be left as they are unless you know to change them.*
 
 Information about password validation [here](https://docs.djangoproject.com/en/stable/ref/settings/#auth-password-validators)
 
-## Number of days that password reset and account activation links are valid (default 3).
 
-_PASSWORD\_RESET\_TIMEOUT\_DAYS = 8_
+## Number of days that password reset and account activation links are valid (default 3).
+*PASSWORD_RESET_TIMEOUT_DAYS = 8*
 
 ## Internationalization
 
 Info on internationalization [here](https://docs.djangoproject.com/en/stable/topics/i18n/)
 
-LANGUAGE\_CODE = 'en-gb' TIME\_ZONE = 'UTC' USE\_I18N = True USE\_L10N = False USE\_TZ = True DATE\_FORMAT = 'N j, Y' DATETIME\_FORMAT = 'N j, Y, H:i' SHORT\_DATE\_FORMAT = 'Y-m-d' SHORT\_DATETIME\_FORMAT = 'Y-m-d H:i' DATETIME\_INPUT\_FORMATS = \[ ... ]
+LANGUAGE_CODE = 'en-gb'
+TIME_ZONE = 'UTC'
+USE_I18N = True
+USE_L10N = False
+USE_TZ = True
+DATE_FORMAT = 'N j, Y'
+DATETIME_FORMAT = 'N j, Y, H:i'
+SHORT_DATE_FORMAT = 'Y-m-d'
+SHORT_DATETIME_FORMAT = 'Y-m-d H:i'
+DATETIME_INPUT_FORMATS = [ ... ]
 
 ## Static files (CSS, JavaScript, Images)
 
 Information on static file handling [here](https://docs.djangoproject.com/en/stable/howto/static-files/)
 
-_STATICFILES\_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'_ _STATICFILES\_DIRS = \[]_ _STATIC\_ROOT = env.get('STATIC\_DIR', os.path.join(BASE\_DIR, 'static'))_ _STATIC\_URL = env.get('STATIC\_URL', '/static/')_ _MEDIA\_ROOT = env.get('MEDIA\_DIR', os.path.join(BASE\_DIR, 'media'))_ _MEDIA\_URL = env.get('MEDIA\_URL', '/media/')_
+*STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'*
+*STATICFILES_DIRS = []*
+*STATIC_ROOT = env.get('STATIC_DIR', os.path.join(BASE_DIR, 'static'))*
+*STATIC_URL = env.get('STATIC_URL', '/static/')*
+*MEDIA_ROOT = env.get('MEDIA_DIR', os.path.join(BASE_DIR, 'media'))*
+*MEDIA_URL = env.get('MEDIA_URL', '/media/')*
 
 ## Users
 
-_AUTH\_USER\_MODEL = 'users.User'_ _WAGTAIL\_USER\_EDIT\_FORM = 'hypha.apply.users.forms.CustomUserEditForm'_ _WAGTAIL\_USER\_CREATION\_FORM = 'hypha.apply.users.forms.CustomUserCreationForm'_ _WAGTAIL\_USER\_CUSTOM\_FIELDS = \['full\_name']_ Custom fields added to wagtail user forms _WAGTAIL\_PASSWORD\_MANAGEMENT\_ENABLED = False_ _WAGTAILUSERS\_PASSWORD\_ENABLED = False_ _WAGTAILUSERS\_PASSWORD\_REQUIRED = False_ _LOGIN\_URL = 'users\_public:login'_ _LOGIN\_REDIRECT\_URL = 'dashboard:dashboard'_ _AUTHENTICATION\_BACKENDS = ( ... add any additional backends here)_
+*AUTH_USER_MODEL = 'users.User'*
+*WAGTAIL_USER_EDIT_FORM = 'hypha.apply.users.forms.CustomUserEditForm'*
+*WAGTAIL_USER_CREATION_FORM = 'hypha.apply.users.forms.CustomUserCreationForm'*
+*WAGTAIL_USER_CUSTOM_FIELDS = ['full_name']* Custom fields added to wagtail user forms
+*WAGTAIL_PASSWORD_MANAGEMENT_ENABLED = False*
+*WAGTAILUSERS_PASSWORD_ENABLED = False*
+*WAGTAILUSERS_PASSWORD_REQUIRED = False*
+*LOGIN_URL = 'users_public:login'*
+*LOGIN_REDIRECT_URL = 'dashboard:dashboard'*
+*AUTHENTICATION_BACKENDS = ( ...  add any additional backends here)*
 
 ## Logging
+*LOGGING = { ... }*
 
-_LOGGING = { ... }_
+
 
 ## Wagtail settings
 
 See information on Wagtail settings [here](https://docs.wagtail.io/en/stable/reference/settings.html)
 
-_WAGTAIL\_SITE\_NAME = 'hypha'_ _WAGTAILIMAGES\_IMAGE\_MODEL = 'images.CustomImage'_ _WAGTAILIMAGES\_FEATURE\_DETECTION\_ENABLED = False_ _WAGTAILADMIN\_RICH\_TEXT\_EDITORS = { ... add any additional editors here }_ _WAGTAILEMBEDS\_RESPONSIVE\_HTML = True_ _PASSWORD\_REQUIRED\_TEMPLATE = 'password\_required.html'_ _DEFAULT\_PER\_PAGE = 20_ _ESI\_ENABLED = False_
+*WAGTAIL_SITE_NAME = 'hypha'*
+*WAGTAILIMAGES_IMAGE_MODEL = 'images.CustomImage'*
+*WAGTAILIMAGES_FEATURE_DETECTION_ENABLED = False*
+*WAGTAILADMIN_RICH_TEXT_EDITORS = { ... add any additional editors here }*
+*WAGTAILEMBEDS_RESPONSIVE_HTML = True*
+*PASSWORD_REQUIRED_TEMPLATE = 'password_required.html'*
+*DEFAULT_PER_PAGE = 20*
+*ESI_ENABLED = False*
+
+
 
 ## Custom hypha settings
 
-_ENABLE\_STYLEGUIDE = False_ _DEBUGTOOLBAR = False_ If the django plug-in `django-debug-toolbar` is enabled ([see dev.py](base.py.md)), `True` would turn it on. Do not do this in production environments.
+*ENABLE_STYLEGUIDE = False*
+*DEBUGTOOLBAR = False* If the django plug-in `django-debug-toolbar` is enabled ([see dev.py]()), `True` would turn it on. Do not do this in production environments.
 
-### Staff e-mail domain _Should probably remain as is_ This setting can come from environment variables, or be specified in an array in this file.
+### Staff e-mail domain *Should probably remain as is*  This setting can come from environment variables, or be specified in an array in this file. 
 
-### Social Auth _These settings should probably remain as is_
-
-_SOCIAL\_AUTH\_URL\_NAMESPACE = 'social'_ This is a setting of the plugin [social-auth-app-django](https://python-social-auth.readthedocs.io/en/latest/configuration/django.html)
+### Social Auth *These settings should probably remain as is*
+*SOCIAL_AUTH_URL_NAMESPACE = 'social'* This is a setting of the plugin [social-auth-app-django](https://python-social-auth.readthedocs.io/en/latest/configuration/django.html)
 
 ### Set the Google OAuth2 credentials in ENV variables or local.py
 
 To create or modify Google OAuth2 credentials go [here](https://console.developers.google.com/apis/credentials)
 
-For info on pipelines see [this](http://python-social-auth.readthedocs.io/en/latest/pipeline.html?highlight=pipelines#authentication-pipeline)
+For info on pipelines  see [this](http://python-social-auth.readthedocs.io/en/latest/pipeline.html?highlight=pipelines#authentication-pipeline)
 
-_SOCIAL\_AUTH\_PIPELINE = ( ... )_
+*SOCIAL_AUTH_PIPELINE = ( ... )*
 
-### Bleach Settings - Settings for the plugin django-bleach _Should remain as is unless you know what to change_
+### Bleach Settings - Settings for the plugin django-bleach *Should remain as is unless you know what to change*
 
 Info on the plugin django-bleach [here](https://django-bleach.readthedocs.io/en/latest/)
 
 ### File Field settings
-
-_FILE\_ALLOWED\_EXTENSIONS = \['doc', 'docx', 'odp', 'ods', 'odt', 'pdf', 'ppt', 'pptx', 'rtf', 'txt', 'xls', 'xlsx']_
+*FILE_ALLOWED_EXTENSIONS = ['doc', 'docx', 'odp', 'ods', 'odt', 'pdf', 'ppt', 'pptx', 'rtf', 'txt', 'xls', 'xlsx']*
 
 ### Accept attribute in input tag of type file needs filename extensions, starting with a period ('.') character.
+*FILE_ACCEPT_ATTR_VALUE = ', '.join(['.' + ext for ext in FILE_ALLOWED_EXTENSIONS])*
 
-_FILE\_ACCEPT\_ATTR\_VALUE = ', '.join(\['.' + ext for ext in FILE\_ALLOWED\_EXTENSIONS])_
-
-### Hijack Settings - These settings are for the plugin django-hijack _Should remain as is_
+### Hijack Settings - These settings are for the plugin django-hijack *Should remain as is*
 
 Documentation on django-hijack, which allows admins to work on behalf of users without their credentials is [here](https://github.com/django-hijack/django-hijack)
 
-_HIJACK\_LOGIN\_REDIRECT\_URL = '/dashboard/'_ _HIJACK\_LOGOUT\_REDIRECT\_URL = '/account/'_ _HIJACK\_DECORATOR = 'hypha.apply.users.decorators.superuser\_decorator'_
+*HIJACK_LOGIN_REDIRECT_URL = '/dashboard/'*
+*HIJACK_LOGOUT_REDIRECT_URL = '/account/'*
+*HIJACK_DECORATOR = 'hypha.apply.users.decorators.superuser_decorator'*
 
-### Messaging Settings - these settings are for messaging integration, like Slack. Most should probably be set via environment. _Should remain as is unless you know what to change_
+### Messaging Settings - these settings are for messaging integration, like Slack. Most should probably be set via environment. *Should remain as is unless you know what to change*
 
-### Celery config - these settings are for python celery _Should remain as is unless you know what to change_
+### Celery config - these settings are for python celery *Should remain as is unless you know what to change*
 
-### S3 configuration _Should remain as is unless you know what to change_
+### S3 configuration *Should remain as is unless you know what to change*
 
 ### Settings to connect to the Bucket from which we are migrating data
-
-_AWS\_MIGRATION\_BUCKET\_NAME = env.get('AWS\_MIGRATION\_BUCKET\_NAME', '')_ Name of bucket to move data to _AWS\_MIGRATION\_ACCESS\_KEY\_ID = env.get('AWS\_MIGRATION\_ACCESS\_KEY\_ID', '')_ Access key for the S3 user _AWS\_MIGRATION\_SECRET\_ACCESS\_KEY = env.get('AWS\_MIGRATION\_SECRET\_ACCESS\_KEY', '')_ Secret Key for S3 user
+*AWS_MIGRATION_BUCKET_NAME = env.get('AWS_MIGRATION_BUCKET_NAME', '')* Name of bucket to move data to
+*AWS_MIGRATION_ACCESS_KEY_ID = env.get('AWS_MIGRATION_ACCESS_KEY_ID', '')* Access key for the S3 user
+*AWS_MIGRATION_SECRET_ACCESS_KEY = env.get('AWS_MIGRATION_SECRET_ACCESS_KEY', '')* Secret Key for S3 user
 
 ### Mailchimp integration
+*MAILCHIMP_API_KEY = env.get('MAILCHIMP_API_KEY')*
+*MAILCHIMP_LIST_ID = env.get('MAILCHIMP_LIST_ID')*
 
-_MAILCHIMP\_API\_KEY = env.get('MAILCHIMP\_API\_KEY')_ _MAILCHIMP\_LIST\_ID = env.get('MAILCHIMP\_LIST\_ID')_
+### Basic auth settings *Should remain as is unless you know what to change*
 
-### Basic auth settings _Should remain as is unless you know what to change_
 
-### Security configuration _Should remain as is unless you know what to change_
+### Security configuration *Should remain as is unless you know what to change*
 
 Information about security configuration [here](https://docs.djangoproject.com/en/stable/ref/middleware/#module-django.middleware.security)
 
-### Referrer-policy header settings _Should remain as is unless you know what to change_
+
+### Referrer-policy header settings *Should remain as is unless you know what to change*
 
 Information about this [here](https://django-referrer-policy.readthedocs.io/en/1.0/)
 
-### Webpack bundle loader _Should remain as is unless you know what to change_
+
+### Webpack bundle loader *Should remain as is unless you know what to change*
 
 When disabled (set to `False`), all included bundles are silently ignored.
 
-### Django countries package provides ISO 3166-1 countries which does not contain Kosovo. _Should remain as is unless you know what to change_
+###  Django countries package provides ISO 3166-1 countries which does not contain Kosovo. *Should remain as is unless you know what to change*
 
-### Rest Framework configuration _Should remain as is unless you know what to change_
+### Rest Framework configuration *Should remain as is unless you know what to change*
 
-### Projects Feature Flag _Should remain as is unless you know what to change_
+### Projects Feature Flag *Should remain as is unless you know what to change*
 
-### Salesforce integration _Should remain as is unless you know what to change_
+### Salesforce integration *Should remain as is unless you know what to change*
 
-### django-file-form settings _Should remain as is unless you know what to change_
+### django-file-form settings *Should remain as is unless you know what to change*
 
-### Ensure FILE\_FORM\_UPLOAD\_DIR exists: _Should remain as is unless you know what to change_
+### Ensure FILE_FORM_UPLOAD_DIR exists: *Should remain as is unless you know what to change*
 
-### Store temporary files on S3 too (files are still uploaded to local filesystem first) _Should remain as is unless you know what to change_
+### Store temporary files on S3 too (files are still uploaded to local filesystem first) *Should remain as is unless you know what to change*
 
-### Matomo tracking _Should remain as is unless you know what to change_
+### Matomo tracking *Should remain as is unless you know what to change*
+
