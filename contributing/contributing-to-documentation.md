@@ -1,5 +1,7 @@
 # 📑 Contribute to Documentation
 
+Most of the work on the Hypha User Guide takes place on the [project’s GitHub repository](https://github.com/HyphaApp/hypha-docs/). To get started, check out the list of [open issues](https://github.com/HyphaApp/hypha-docs/issues) and pull requests. By contributing to the Hypha User Guide, you’re expected to follow the [Code of Conduct](https://docs.hypha.app/contributors/codeofconduct).
+
 The Hypha Guide welcomes contributors! There are lots of ways to help out, including:
 
 * [ ] Reading the guide and giving feedback
@@ -7,8 +9,6 @@ The Hypha Guide welcomes contributors! There are lots of ways to help out, inclu
 * [ ] Revising existing content
 * [ ] Writing new content
 * [ ] Translate the guide
-
-Most of the work on the Hypha User Guide takes place on the [project’s GitHub repository](https://github.com/HyphaApp/hypha-docs/). To get started, check out the list of [open issues](https://github.com/HyphaApp/hypha-docs/issues) and pull requests. By contributing to the Hypha User Guide, you’re expected to follow the [Code of Conduct](https://docs.hypha.app/contributors/codeofconduct).
 
 ### Documentation types
 
