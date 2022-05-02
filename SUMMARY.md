@@ -15,7 +15,7 @@
       * [example.py](administrators/configuration/example.py.md)
     * [Create a new User](developers/createusers.md)
 * [Usage Guide](staff/README.md)
-  * [Key concepts & user types](staff/hypha\_roles.md)
+  * [User Roles](staff/hypha\_roles.md)
   * [Create a user account](staff/create-a-user-account.md)
   * [Page 1](staff/page-1.md)
 * [How to Contribute](contributors/README.md)
