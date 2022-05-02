@@ -20,7 +20,7 @@
   * [Your First Application](staff/your-first-application/README.md)
     * [Setting up funds and labs](staff/your-first-application/setting-up-funds-and-labs/README.md)
       * [Select a Workflow](staff/your-first-application/setting-up-funds-and-labs/select-a-workflow.md)
-    * [Page 1](staff/your-first-application/page-1.md)
+    * [Setting up a round](staff/your-first-application/setting-up-a-round.md)
     * [Edit a Form](staff/your-first-application/page-2.md)
 * [How to Contribute](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
