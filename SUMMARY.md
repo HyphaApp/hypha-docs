@@ -17,6 +17,7 @@
 * [Usage Guide](staff/README.md)
   * [Key concepts & user types](staff/hypha\_roles.md)
   * [Create a user account](staff/create-a-user-account.md)
+  * [Page 1](staff/page-1.md)
 * [How to Contribute](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contributing Code](contributors/code/README.md)
