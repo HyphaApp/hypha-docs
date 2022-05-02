@@ -1,6 +1,6 @@
 # Create a user account
 
-In the WagTail Admin, you could create a new user role by clicking on the 'Add User' button on the far right-hand corner of the screen. You can also search for users in the search bar.
+In the WagTail Admin, you could create a new user account as well as assign a role to a user account by clicking on the 'Add User' button on the far right-hand corner of the screen. You can also search for users in the search bar.
 
 ![](../.gitbook/assets/user1.png)
 
