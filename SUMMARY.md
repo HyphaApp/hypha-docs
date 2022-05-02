@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
-  * [Local Development with Docker](developers/localdeveldocker.md)
-    * [Local Development from Scratch](developers/localdevelscratch.md)
+  * [Local Development with Docker](gettingstarted/localdeveldocker.md)
+  * [Local Development from Scratch](gettingstarted/localdevelscratch.md)
   * [Deployment](administrators/deployment/README.md)
     * [Stand Alone](administrators/deployment/stand-alone.md)
     * [Heroku](administrators/deployment/heroku.md)
@@ -14,6 +14,7 @@
       * [local.py](administrators/configuration/local.py.md)
       * [example.py](administrators/configuration/example.py.md)
     * [Create a new User](developers/createusers.md)
+* [Page 1](page-1.md)
 * [Staff](staff/README.md)
   * [Key concepts & user types](staff/hypha\_roles.md)
   * [Create a user account](staff/create-a-user-account.md)
