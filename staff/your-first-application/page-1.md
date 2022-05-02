@@ -2,8 +2,6 @@
 
 Currently users can copy, clone, or duplicate a Fund before creating a new form. Duplicating a Fund/Lab also duplicates the forms associated with that particular Fund or Lab. **Users can not preview form, Fund needs to be published on live site for users to view draft or completed version**
 
-## Setting Up a New Round
-
 1. Open Apply and click the bird icon on the bottom-right corner, then click the “Go to Wagtail admin” pop-up
 2. Click Apply > Rounds
 
