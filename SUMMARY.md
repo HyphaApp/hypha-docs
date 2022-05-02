@@ -1,8 +1,8 @@
 # Table of contents
 
 * [Getting Started](README.md)
-  * [Local Development with Docker](gettingstarted/localdeveldocker.md)
-  * [Local Development from Scratch](gettingstarted/localdevelscratch.md)
+  * [Local Development with Docker](developers/localdeveldocker.md)
+  * [Local Development from Scratch](developers/localdevelscratch.md)
   * [Deployment](administrators/deployment/README.md)
     * [Stand Alone](administrators/deployment/stand-alone.md)
     * [Heroku](administrators/deployment/heroku.md)
