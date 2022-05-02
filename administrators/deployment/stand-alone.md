@@ -12,15 +12,15 @@ This process was tested on Ubuntu 18.04LTS. It should work on any Debian-based s
 
 These are the basic packages needed before you can start the installation process.
 
-* python3-pip and python3-venv - install using  `sudo apt-get install python3-pip python3-venv`
-* postgresql \(version 12.x\) use `sudo apt-get install postgresql postgresql-contrib postgresql-server-dev-12`
-* to install nodejs \(version v16.x\), use nodesource. Add the PPA to your sources list by running this script: `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` then `sudo apt-get install nodejs`
+* python3-pip and python3-venv - install using `sudo apt-get install python3-pip python3-venv`
+* postgresql (version 12.x) use `sudo apt-get install postgresql postgresql-contrib postgresql-server-dev-12`
+* to install nodejs (version v16.x), use nodesource. Add the PPA to your sources list by running this script: `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` then `sudo apt-get install nodejs`
 
 ### Python virtual environment
 
 Create the virtual environment, specify the python binary to use and the directory. Then source the activate script to activate the virtual environment. The last line tells Django what settings to use.
 
-```text
+```
 $ python3 -m venv venv/hypha
 $ source venv/hypha/bin/activate
 $ export DJANGO_SETTINGS_MODULE=hypha.settings.production
@@ -32,7 +32,7 @@ Inside your activated virtual environment you will use plain `python` and `pip` 
 
 Next, install the required packages using:
 
-```text
+```
 $ pip install -r requirements.txt
 ```
 
@@ -40,13 +40,13 @@ $ pip install -r requirements.txt
 
 All the needed Node packages are listed in `package.json`. Install them with this command.
 
-```text
+```
 $ npm install
 ```
 
 You will also need the gulp task manager. On some systems you might need to run this command with `sudo`.
 
-```text
+```
 $ npm install -g gulp-cli
 ```
 
@@ -75,21 +75,21 @@ Then use the following commands to test run the server:
 * `python manage.py clear_cache --cache=default --cache=wagtailcache`
 * `python manage.py createsuperuser`
 * `python manage.py wagtailsiteupdate server.domain apply.server.domain 80`
-* `python manage.py runserver` \(runs development server at [http://127.0.0.1:8000](http://127.0.0.1:8000)\)
+* `python manage.py runserver` (runs development server at [http://127.0.0.1:8000](http://127.0.0.1:8000))
 
 You should see the home page of the server. That's great. You can stop the server, and then we can then take the next steps.
 
 ### Deploy with nginx/gunicorn
 
-Make sure gunicorn is installed \(it should be\). Do a test run with gunicorn: `gunicorn --bind 0.0.0.0:<some port> hypha.wsgi:application` This might not work. It's OK if it doesn't work - you can go on anyway.
+Make sure gunicorn is installed (it should be). Do a test run with gunicorn: `gunicorn --bind 0.0.0.0:<some port> hypha.wsgi:application` This might not work. It's OK if it doesn't work - you can go on anyway.
 
-To make gunicorn start automatically with systemd see [https://docs.gunicorn.org/en/stable/deploy.html\#systemd](https://docs.gunicorn.org/en/stable/deploy.html#systemd).
+To make gunicorn start automatically with systemd see [https://docs.gunicorn.org/en/stable/deploy.html#systemd](https://docs.gunicorn.org/en/stable/deploy.html#systemd).
 
-Set up DNS so that server.domain and apply.server.domain point to the server you've installed the application. Install nginx if you haven't already \(`sudo apt-get install nginx`\). You'll need to add two new config files for nginx in /etc/nginx/sites-available:
+Set up DNS so that server.domain and apply.server.domain point to the server you've installed the application. Install nginx if you haven't already (`sudo apt-get install nginx`). You'll need to add two new config files for nginx in /etc/nginx/sites-available:
 
 public
 
-```text
+```
 server {
     listen 80;
     server_name server.domain;
@@ -117,7 +117,7 @@ server {
 
 apply
 
-```text
+```
 server {
     listen 80;
     server_name apply.server.domain;
@@ -158,7 +158,7 @@ Follow the instructions, and you're done.
 
 ### Administration
 
-The Django Administration panel is connected to the 'apply' domain: so access that via [http://apply.server.domain/django-admin/](http://apply.server.domain/django-admin/) \(use the email address and password you set in the `python manage.py createsuperuser` step above.\)
+The Django Administration panel is connected to the 'apply' domain: so access that via [http://apply.server.domain/django-admin/](http://apply.server.domain/django-admin/) (use the email address and password you set in the `python manage.py createsuperuser` step above.)
 
 The Apply dashboard is here: [http://apply.server.domain/dashboard/](http://apply.server.domain/dashboard/). The Apply Wagtail admin: [http://apply.server.domain/admin](http://apply.server.domain/admin)
 
@@ -168,7 +168,7 @@ Here is a list of settings that can be set as environment variables or in a `hyp
 
 **None optional:**
 
-```text
+```
 API_BASE_URL:                                  https://apply.example.org/api
 CACHE_CONTROL_MAX_AGE:                         14400
 COOKIE_SECURE:                                 true
@@ -188,7 +188,7 @@ SERVER_EMAIL:                                  app@apply.example.org
 
 **Optional:**
 
-```text
+```
 ANYMAIL_WEBHOOK_SECRET:                        [KEY]
 AWS_ACCESS_KEY_ID:                             [KEY]
 AWS_DEFAULT_ACL:                               None
@@ -218,4 +218,3 @@ SOCIAL_AUTH_GOOGLE_OAUTH2_KEY:                 [KEY]
 SOCIAL_AUTH_GOOGLE_OAUTH2_SECRET:              [KEY]
 SOCIAL_AUTH_GOOGLE_OAUTH2_WHITELISTED_DOMAINS: example.org
 ```
-

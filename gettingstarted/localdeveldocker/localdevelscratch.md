@@ -6,24 +6,24 @@ Make sure you have these things installed on your system:
 
 * Git
 * Python 3.9.x
-  * python3-venv \(to setup virtual enviroment\)
-  * python3-pip \(to install python packages\)
+  * python3-venv (to setup virtual enviroment)
+  * python3-pip (to install python packages)
 * PostgreSQL 12.x
-  * libpq-dev \(on Linux at least\)
+  * libpq-dev (on Linux at least)
 * Apache or Nginx
 * Node 16.x
 
-On Linux install them with your normal package manager. On macOS [Homebrew](https://brew.sh/) is an excellent option.
+On Linux install them with your normal package manager. On macOS [Homebrew](https://brew.sh) is an excellent option.
 
-For Windows [Chocolatey](https://chocolatey.org/) seems popular but we have no experience with Windows.
+For Windows [Chocolatey](https://chocolatey.org) seems popular but we have no experience with Windows.
 
 ## Domains for local development
 
 You will need two domain to run this app. One for the public site and one for the apply site.
 
-Add this to your `/etc/hosts` file. \(Feel free to use another name but then remember to use it in all the commands below.\)
+Add this to your `/etc/hosts` file. (Feel free to use another name but then remember to use it in all the commands below.)
 
-```text
+```
 127.0.0.1 hypha.test
 127.0.0.1 apply.hypha.test
 ```
@@ -34,16 +34,17 @@ OBS! All examples from now on will use the `hypha.test` domains.
 
 ## Get the code
 
-```text
+```
 $ git clone https://github.com/HyphaApp/hypha.git hypha
 
 $ cd hypha
 ```
+
 ### Create media directory
 
 In production media is stored on AWS S3 but for local development you need a "media" directory.
 
-```text
+```
 $ mkdir media
 ```
 
@@ -53,7 +54,7 @@ OBS! Everything from now on will happen inside the hypha directory.
 
 Create the virtual environment, specify the python binary to use and the directory. Then source the activate script to activate the virtual environment. The last line tells Django what settings to use.
 
-```text
+```
 $ python3 -m venv venv/hypha
 $ source venv/hypha/bin/activate
 $ export DJANGO_SETTINGS_MODULE=hypha.settings.dev
@@ -63,7 +64,7 @@ Inside your activated virtual environment you will use plain `python` and `pip` 
 
 Each time you open up a new shell to work with the app you will need to activate the virtual environment.
 
-```text
+```
 $ cd /path/to/application/hypha
 $ source venv/hypha/bin/activate
 $ export DJANGO_SETTINGS_MODULE=hypha.settings.dev
@@ -75,15 +76,15 @@ All the needed python packages for production are listed in the `requirements.tx
 
 For a development environment you then run:
 
-```text
+```
 $ pip install -r requirements-dev.txt
 ```
 
 If any `requirements*.txt` file have been updated you will need to rerun this command to get the updated/added packages.
 
-**Note for macOS users:** If `pip` does not want to build "psycopg2" you need to add openssl to your "LIBRARY_PATH". Assuming you have openssl installed with homebrew the following should work.
+**Note for macOS users:** If `pip` does not want to build "psycopg2" you need to add openssl to your "LIBRARY\_PATH". Assuming you have openssl installed with homebrew the following should work.
 
-```text
+```
 $ export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 ```
 
@@ -91,7 +92,7 @@ $ export LIBRARY_PATH=$LIBRARY_PATH:/usr/local/opt/openssl/lib/
 
 All the needed Node packages are listed in `package.json`. Install them with this command.
 
-```text
+```
 $ npm install
 ```
 
@@ -101,13 +102,13 @@ If the `createdb`and `dropdb` is not available you will need to add the Postgres
 
 Create a database for the app.
 
-```text
+```
 $ createdb hypha
 ```
 
 To drop a database use.
 
-```text
+```
 $ dropdb hypha
 ```
 
@@ -115,7 +116,7 @@ $ dropdb hypha
 
 On Linux you might need to run as the "postgres" user first when setting up Postgres. Use it to create the database and set up a database user. For local development I suggest creating a user with the same name as your account, then you will not need to specify it on every command.
 
-```text
+```
 $ su - postgres
 $ createdb hypha
 $ createuser [your-account-name]
@@ -125,7 +126,7 @@ $ createuser [your-account-name]
 
 To make the app find the Postgres socket you might need to update the "unix\_socket\_directories" setting in the `postgresql.conf` file.
 
-```text
+```
 unix_socket_directories = '/tmp, /var/pgsql_socket'
 ```
 
@@ -133,11 +134,11 @@ unix_socket_directories = '/tmp, /var/pgsql_socket'
 
 If you installed "stellar" you can use it to take snapshots and restore them.
 
-```text
+```
 $ stellar snapshot hypha_2019-10-01
 ```
 
-```text
+```
 $ stellar restore hypha_2019-10-01
 ```
 
@@ -149,7 +150,7 @@ When you use the "dev" settings it will included all the setting you put in `loc
 
 Copy the local settings example file.
 
-```text
+```
 $ cp -p hypha/settings/local.py.example hypha/settings/local.py
 ```
 
@@ -163,14 +164,14 @@ You most likely want to set these:
 
 If you have a problem with "CSRF cookie not set".
 
-```text
+```
 CSRF_COOKIE_SAMESITE = None
 SESSION_COOKIE_SAMESITE = None
 ```
 
 If you do not use the app name for the database.
 
-```text
+```
 import dj_database_url
 
 DATABASES = {
@@ -191,7 +192,7 @@ Gunicorn is installed inside the virtual environment since it's listed in `requi
 
 At the bottom of this file you find a handy script for Gunicorn. For a quick test you can run this command from your site directory.
 
-```text
+```
 $ gunicorn hypha.wsgi:application --env DJANGO_SETTINGS_MODULE=hypha.settings.dev --bind 127.0.0.1:9001
 ```
 
@@ -209,7 +210,7 @@ The examples uses port 80 for web server and port 9001 for WSGI, feel free to ch
 
 ### Apache
 
-```text
+```
 <VirtualHost 127.0.0.1:80>
   ServerName hypha.test
   ServerAlias apply.hypha.test
@@ -252,7 +253,7 @@ The examples uses port 80 for web server and port 9001 for WSGI, feel free to ch
 
 ### Nginx
 
-```text
+```
 server {
     listen 80;
     server_name hypha.test apply.hypha.test;
@@ -282,33 +283,33 @@ See the `package.json` file for a complete list of commands. Here are the most c
 
 This will watch all sass and js files for changes and build them with css maps. It will also run the "collecstatic" command, useful when running the site with a production server and not the built in dev server.
 
-```text
+```
 $ npm run watch
 ```
 
 To build all assets for development use this command.
 
-```text
+```
 $ npm run dev:build
 ```
 
 If you are working on the React components you also need to set "API\_BASE\_URL" to the correct value.
 
-```text
+```
 $ export API_BASE_URL='http://apply.hypha.test/api'
 ```
 
 To build the assets which get deployed, use the following. The deployment scripts will handle this, and the files should not be committed.
 
-```text
+```
 $ npm run build
 ```
 
 ## Finally, the app itself
 
-Start by specifying what settings file is to be used \(if you have not already done this, see above\).
+Start by specifying what settings file is to be used (if you have not already done this, see above).
 
-```text
+```
 $ export DJANGO_SETTINGS_MODULE=hypha.settings.dev
 ```
 
@@ -318,13 +319,13 @@ Then decide if you want to start with some demo content or with an empty db.
 
 There is a `/public/sandbox_db.dump` file that has some demo content to get you started. Load it in with this command.
 
-```text
+```
 $ pg_restore --verbose --clean --if-exists --no-acl --no-owner --dbname=hypha public/sandbox_db.dump
 ```
 
 It's not always completely up to date so run:
 
-```text
+```
 $ python manage.py migrate --noinput
 ```
 
@@ -332,25 +333,25 @@ $ python manage.py migrate --noinput
 
 Create the cache tables.
 
-```text
+```
 $ python manage.py createcachetable
 ```
 
 Run all migrations to set up the database tables.
 
-```text
+```
 $ python manage.py migrate --noinput
 ```
 
 Create the first super user.
 
-```text
+```
 $ python manage.py createsuperuser
 ```
 
 Collect all the static files.
 
-```text
+```
 $ python manage.py collectstatic --noinput --settings=hypha.settings.dev
 ```
 
@@ -358,23 +359,23 @@ $ python manage.py collectstatic --noinput --settings=hypha.settings.dev
 
 Set the addresses and ports of the two wagtail sites.
 
-```text
+```
 $ python manage.py wagtailsiteupdate hypha.test apply.hypha.test 80
 ```
 
-Now you should be able to access the sites on [http://hypha.test/](http://hypha.test/) and [http://apply.hypha.test/](http://apply.hypha.test/)
+Now you should be able to access the sites on [http://hypha.test/](http://hypha.test) and [http://apply.hypha.test/](http://apply.hypha.test)
 
 ### Run tests
 
 Hypha has specific settings for testing so specify them when you run the "test" command.
 
-```text
+```
 $ python manage.py test --settings=hypha.settings.test
 ```
 
 If you need to rerun the tests several times this will speed them up considerably.
 
-```text
+```
 $ python manage.py test --parallel --keepdb --settings=hypha.settings.test
 ```
 
