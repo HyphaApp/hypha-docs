@@ -19,7 +19,7 @@
   * [Create a user account](staff/create-a-user-account.md)
 * [How to Contribute](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
-  * [Contributing to Hypha code](contributors/code/README.md)
+  * [Contributing Code](contributors/code/README.md)
     * [System principles](contributors/code/systemprinciples.md)
     * [Submitting Changes](contributors/code/submittingchanges.md)
     * [Implementation Details](contributors/code/implementationdetails.md)
