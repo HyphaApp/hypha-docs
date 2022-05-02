@@ -1,5 +1,7 @@
 # Usage Guide
 
+The examples in this document are based on Hypha's [demo site](https://sandbox.opentech.fund). However, the instructions are general enough as to be applicable to any Hypha site.
+
 ## Granting organizations' process:
 
 1. Determine **kind of project** to be funded (e.g. grantmaking categories or thematic areas)
