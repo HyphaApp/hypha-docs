@@ -22,6 +22,7 @@
       * [Select a Workflow](staff/your-first-application/setting-up-funds-and-labs/select-a-workflow.md)
     * [Setting up a round](staff/your-first-application/setting-up-a-round.md)
     * [Edit a Form](staff/your-first-application/page-2.md)
+    * [Publish a Fund & Lab](staff/your-first-application/publish-a-fund-and-lab.md)
 * [How to Contribute](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contributing Code](contributors/code/README.md)
