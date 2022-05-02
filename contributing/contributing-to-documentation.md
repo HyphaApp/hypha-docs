@@ -24,8 +24,4 @@ Guides are focused on accomplishing a specific task and can assume some level of
 
 ### Discussions
 
-Discussions are focused on understanding and information. These explore a specific topic without a specific goal in mind. https://we.hypha.app/
-
-### Where the guide is deployed
-
-The guide is deployed via ReadTheDocs and the configuration lives at https://docs.hypha.app/.
+Discussions are focused on understanding and information exchange. These explore a specific topic without a specific goal in mind. https://we.hypha.app/
