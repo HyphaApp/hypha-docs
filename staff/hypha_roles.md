@@ -2,16 +2,6 @@
 
 ### **Roles** refer to _different kinds of users_ who can do different things (i.e. have specific "permissions")
 
-\
-
-
-> #### 🚧 Page under construction🚧
->
-> _Check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted\_overview/we.hypha.app) _with questions/feedback_
-
-\
-
-
 ## Primary Roles
 
 ### **Staff** can:
