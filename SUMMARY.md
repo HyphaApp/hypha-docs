@@ -20,6 +20,7 @@
   * [Your First Application](staff/your-first-application/README.md)
     * [Setting up funds and labs](staff/your-first-application/setting-up-funds-and-labs/README.md)
       * [Select a Workflow](staff/your-first-application/setting-up-funds-and-labs/select-a-workflow.md)
+    * [Page 1](staff/your-first-application/page-1.md)
 * [How to Contribute](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contributing Code](contributors/code/README.md)
