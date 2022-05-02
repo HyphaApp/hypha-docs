@@ -25,3 +25,4 @@
     * [Implementation Details](contributors/code/implementationdetails.md)
     * [Testing](contributors/code/testing.md)
   * [📑 Contribute to Documentation](contributing/contributing-to-documentation.md)
+* [Glossary](glossary.md)
