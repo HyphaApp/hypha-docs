@@ -16,4 +16,4 @@
     * Created previously in stage 2
     * Number validated against the workflow chosen above (i.e. if it is a concept/proposal workflow 2 forms must be selected)
   * Confirmation email
-* Publishing the fund is required to make sure that the application form is publicly visible to users.
+* Publishing the fund or lab is required to make sure that the application form is publicly visible to users.
