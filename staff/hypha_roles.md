@@ -1,4 +1,4 @@
-# Key concepts & user types
+# User Roles
 
 ### **Roles** refer to _different kinds of users_ who can do different things (i.e. have specific "permissions")
 
@@ -9,7 +9,7 @@
 * create accounts for other **Staff**, **Reviewers**, and **Applicants** (rare)
 * deactivate other user accounts
 * modify roles for other users
-* set up applications (this means creating Forms, Funds, and Rounds - see [Getting Started for Staff](https://docs.hypha.app/gettingstarted\_overview/gettingstarted\_staff) for an overview of how the process works)
+* set up applications (this means creating Forms, Funds, and Rounds&#x20;
 * see applications/submissions
 * give other users (e.g. Reviewers or other Staff) access to applications/submissions
 * review applications/submissions
@@ -70,4 +70,3 @@ _For example, current Hypha whitelabel includes the following roles, which were 
 
 * **Community Reviewer**
 * **Team Admin**
-
