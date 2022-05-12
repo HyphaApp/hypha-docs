@@ -27,5 +27,4 @@ The four hard-coded workflows are: Request, Request with external review, Reques
 
 * There are two stages
 * First stage as request
-*   Second stage includes Advisory council review or External Review stage
-
+* Second stage includes Advisory council review or External Review stage
