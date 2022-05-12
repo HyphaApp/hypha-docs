@@ -18,7 +18,7 @@ All admin actions associated with applications can be access through the “Appl
 
 :ocean: [**Select a Workflow** ](broken-reference)****
 
-:writing\_hand: [**Create a new Fund application** ](broken-reference)****
+:writing\_hand: [**Setting up a Round**](setting-up-a-round.md)****
 
 ****
 
