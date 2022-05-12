@@ -1,4 +1,4 @@
-# Glossary
+# 📖 Glossary
 
 **Batch Action**: a grouping of applications organized based on some defined criteria
 

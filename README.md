@@ -2,7 +2,7 @@
 description: This page provides instructions for folks using (or considering) Hypha.
 ---
 
-# Getting Started
+# 🚀 Getting Started
 
 {% hint style="info" %}
 **Note**
