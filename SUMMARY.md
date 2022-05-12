@@ -22,6 +22,7 @@
     * [Partner](staff/user-roles/partner.md)
   * [Create a user account](staff/create-a-user-account.md)
   * [🏗 Your First Application](staff/set-up-your-first-application/README.md)
+    * [Setting up a form](staff/your-first-application/setting-up-a-form.md)
     * [Setting up funds and labs](staff/set-up-your-first-application/setting-up-funds-and-labs/README.md)
       * [Select a Workflow](staff/set-up-your-first-application/setting-up-funds-and-labs/select-a-workflow.md)
     * [Setting up a round](staff/set-up-your-first-application/setting-up-a-round.md)
