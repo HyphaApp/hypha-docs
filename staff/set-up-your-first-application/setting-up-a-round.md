@@ -11,19 +11,23 @@ Currently users can copy, clone, or duplicate a Fund before creating a new form.
 
 ![](https://lh4.googleusercontent.com/HYeW73u0m3P7gM8WYe1mzM7jS44efEwUt8kwCjovSX5E7zQ9dFicYe6AAqfUMc9xmQXsUnS6ER5xLzNcChx9A1mAPA63miYGRxckF141wU\_n44X7JVG4sw58ubHapDFDZSuav7Bd)
 
-4\. Add the last day of the month as the end date for that round (this will allow you to open the new round on the first of the following month)
+4\. Enter the Start Date (ie first day of the month) and End Date (ie last day of the month).&#x20;
 
-5\. Save and then publish&#x20;
-
-6\. Next, copy the most recent round by clicking the “Copy” button (all the forms associated with this round will copy over)
+{% hint style="info" %}
+Not selecting an end date allows the application to be open to the public indefinitely.&#x20;
+{% endhint %}
 
 7\. Update the title and slug.&#x20;
 
 8\. Enter the Lead's name
 
-9\. Enter the Start Date (ie 1st of the month) and leave the End Date field blank (this is a remnant from when there were application deadlines for applicants) &#x20;
+![](../../.gitbook/assets/assets\_webapp-field-guide\_-Mk2jyrzy70S6oYU5w-q\_-Mk2km72e7EHOhD8PQdy\_36.png)
 
-10\. Check to ensure the correct reviewers highlighted
+9\. Check to ensure the correct reviewers are highlighted
 
-11\. Save and publish (no one needs to review it). This ensures that the application is publicly visible to users.
+![](../../.gitbook/assets/assets\_webapp-field-guide\_-Mk2jyrzy70S6oYU5w-q\_-Mk2km71WNAKTWuxNDRC\_35.png)
+
+10\. You could save a draft or publish. Publish means the application will be publicly visible to applicants.
+
+![](<../../.gitbook/assets/assets\_webapp-field-guide\_-Mk2jyrzy70S6oYU5w-q\_-Mk2km73pp1amuzCPd2K\_37 (1).png>)
 

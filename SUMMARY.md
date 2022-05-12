@@ -25,8 +25,6 @@
     * [Setting up funds and labs](staff/set-up-your-first-application/setting-up-funds-and-labs/README.md)
       * [Select a Workflow](staff/set-up-your-first-application/setting-up-funds-and-labs/select-a-workflow.md)
     * [Setting up a round](staff/set-up-your-first-application/setting-up-a-round.md)
-    * [Edit a Form](staff/set-up-your-first-application/edit-a-form.md)
-    * [Publish a Fund & Lab](staff/set-up-your-first-application/publish-a-fund-and-lab.md)
 * [🙋 Want to Contribute?](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contribute Code](contributors/code/README.md)
