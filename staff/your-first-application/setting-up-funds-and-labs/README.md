@@ -1,6 +1,6 @@
 # Setting up funds and labs
 
-## Creating a new fund, either:
+## Creating a new fund:
 
 * Add a new fund in the top right or copy an existing fund (mouse over the row to show options)
 * You will then be able to add the following information
