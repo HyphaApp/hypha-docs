@@ -1,6 +1,14 @@
-# How to Contribute
+# 🙋 Want to Contribute?
 
-First off, thanks for taking the time to contribute! Hypha is improved by a small community of developers, designers and users. We welcome your contributions. There are many ways to contribute to Hypha - code, design, documentation and translation. Before you start working however, please read our [code of conduct](https://docs.hypha.app/contributing/codeofconduct).
+First off, thanks for taking the time to contribute! Hypha is improved by a small community of developers, designers and users. We welcome your contributions. There are many ways to contribute to Hypha - code, design, documentation and translation. Before you start working however, please read our code of conduct.
+
+### Reporting issues
+
+All changes in Hypha start as an issue.
+
+Pick the [correct issue template](https://github.com/HyphaApp/hypha/issues/new/choose) from the options given (bug report, feature request etc.). These templates will guide you. Provide as much information as possible.
+
+###
 
 ### Documentation contribution
 
@@ -8,7 +16,7 @@ We use the [hypha-docs](https://github.com/HyphaApp/hypha-docs/) Github reposito
 
 ### Design contribution
 
-All design contributions are managed in Github issues. If you have a usability, or UX design recommendation, you can open a Github issue and use the ["Status: Needs UX/UI Review"](https://github.com/HyphaApp/hypha/labels/Status%3A%20Needs%20UI%2FUX%20review) label.
+All design contributions are managed on Github. If you have a usability, or UX design recommendation, you can open a Github issue and use the ["Status: Needs UX/UI Review"](https://github.com/HyphaApp/hypha/labels/Status%3A%20Needs%20UI%2FUX%20review) label.
 
 ### Translation
 

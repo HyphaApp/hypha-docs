@@ -1,6 +1,6 @@
 # Table of contents
 
-* [Getting Started](README.md)
+* [🚀 Getting Started](README.md)
   * [Local Development with Docker](developers/localdeveldocker.md)
   * [Local Development from Scratch](developers/localdevelscratch.md)
   * [Deployment](administrators/deployment/README.md)
@@ -14,7 +14,7 @@
       * [local.py](administrators/configuration/local.py.md)
       * [example.py](administrators/configuration/example.py.md)
     * [Create a new User](developers/createusers.md)
-* [Usage Guide](staff/README.md)
+* [🏃 Usage Guide](staff/README.md)
   * [User Roles](staff/hypha\_roles.md)
   * [Create a user account](staff/create-a-user-account.md)
   * [Your First Application](staff/your-first-application/README.md)
@@ -23,7 +23,7 @@
     * [Setting up a round](staff/your-first-application/setting-up-a-round.md)
     * [Edit a Form](staff/your-first-application/page-2.md)
     * [Publish a Fund & Lab](staff/your-first-application/publish-a-fund-and-lab.md)
-* [How to Contribute](contributors/README.md)
+* [🙋 Want to Contribute?](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contributing Code](contributors/code/README.md)
     * [System principles](contributors/code/systemprinciples.md)
