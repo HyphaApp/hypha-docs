@@ -25,7 +25,7 @@
     * [Publish a Fund & Lab](staff/your-first-application/publish-a-fund-and-lab.md)
 * [🙋 Want to Contribute?](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
-  * [Contributing Code](contributors/code/README.md)
+  * [Contribute Code](contributors/code/README.md)
     * [System principles](contributors/code/systemprinciples.md)
     * [Submitting Changes](contributors/code/submittingchanges.md)
     * [Implementation Details](contributors/code/implementationdetails.md)
