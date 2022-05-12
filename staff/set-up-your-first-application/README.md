@@ -5,7 +5,7 @@ description: >-
   admin area. Clicking on the “Apply” menu item opens u
 ---
 
-# Your First Application
+# 🏗 Set up your first application
 
 :wrench:[**Setting up Funds and Labs**](broken-reference)****
 
