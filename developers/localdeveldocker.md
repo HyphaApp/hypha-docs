@@ -39,21 +39,23 @@ OBS! Everything from now on will happen inside the hypha directory.
 
 ### Build the Docker images
 
-Move to the "docker" directory.
-
-```
-$ cd docker
-```
-
 Run the docker compose command to build the images. This will take some time.
 
 If you need to rebuild the images to get a later version just run the "build" again.
 
 ```
-$ docker-compose build
+$ docker-compose --file docker/docker-compose.yaml build
 ```
 
+The build command needs to be run from Hypha root so it can copy needed files. The other commands are easier to run directly from the "docker" sub directory.
+
 ### Start the docker environment
+
+Move to the "docker" directory.
+
+```
+$ cd docker
+```
 
 To start the docker containers you use the "up" command. This command you will use each time you want to start up and use this docker environment.
 
