@@ -12,7 +12,7 @@ All admin actions associated with applications can be access through the “Appl
 
 
 
-****:bookmark\_tabs: **** [**Setting up a Form**](setting-up-a-form.md)****
+****:bookmark\_tabs: **** [**Setting up a Form**](../your-first-application/setting-up-a-form.md)****
 
 :wrench:[**Setting up Funds and Labs**](broken-reference)****
 

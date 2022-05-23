@@ -6,5 +6,5 @@ The examples in this document are based on Hypha's [demo site](https://sandbox.o
 
 [Create a user account](../developers/createusers.md)
 
-[Create your first application](create-your-first-application/)
+[Create your first application](set-up-your-first-application/)
 
