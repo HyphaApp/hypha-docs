@@ -1,4 +1,4 @@
-# Contributing Code
+# Contribute Code
 
 ### Creating Pull Requests&#x20;
 
@@ -6,7 +6,6 @@ Found a bug and know how to fix it? Have some design wireframes to improve some 
 
 Guidance for contributing code:
 
-1. [The System Principles behind Hypha](systemprinciples.md)
-2. [Submitting Changes](submittingchanges.md)
-3. [Implementation Details](implementationdetails.md)
-4. [How to run tests on Hypha](testing.md)
+1. [Submitting Changes](submittingchanges.md)
+2. [Implementation Details](implementationdetails.md)
+3. [How to run tests on Hypha](testing.md)

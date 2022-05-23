@@ -29,7 +29,6 @@
 * [🙋 Want to Contribute?](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contribute Code](contributors/code/README.md)
-    * [System principles](contributors/code/systemprinciples.md)
     * [Submitting Changes](contributors/code/submittingchanges.md)
     * [Implementation Details](contributors/code/implementationdetails.md)
     * [Testing](contributors/code/testing.md)
