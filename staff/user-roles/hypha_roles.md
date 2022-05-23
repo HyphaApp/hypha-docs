@@ -12,5 +12,6 @@
 * process determinations/decisions&#x20;
 * communicate with Applicants
 
-> ℹ️ _Account created during deployment_
-
+{% hint style="info" %}
+Account created by **Staff** & assigned to either "Fund" or specific application(s)
+{% endhint %}

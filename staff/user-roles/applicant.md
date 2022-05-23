@@ -6,4 +6,4 @@
 * contact fund staff regarding own application
 * submit invoice/request for fund dispersal
 
-> ℹ️ _Account created automatically when user applies to specific fund/round_
+> ℹ️ _Account created automatically when user submits a submission._&#x20;

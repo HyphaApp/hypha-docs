@@ -4,7 +4,7 @@ description: >-
   will learn more about the WagTail navigation.
 ---
 
-# 🏗 Create Your First Application
+# 🏗 Your First Application
 
 ## **Getting Started**
 
