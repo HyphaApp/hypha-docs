@@ -63,7 +63,7 @@ $ docker-compose up
 
 ### Access the docker environment
 
-Go to [http://hypha.test:8090/](http://hypha.test:8090)
+Go to [http://hypha.test:8090/](http://hypha.test:8090/)
 
 ### Run commands in the docker environment
 
