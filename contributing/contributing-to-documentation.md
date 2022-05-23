@@ -22,7 +22,7 @@ Provides step-by-step information on how to set up a local instance of Hypha.
 
 Guides are focused on accomplishing a specific task and can assume some level of prerequisite knowledge. There may be multiple approaches to accomplishing a task, and we welcome your input.
 
-Adopters have created their own user guides, including applicant platform guides from the [Digital Freedom Fund ](https://apply.hypha.digitalfreedomfund.org/)and [Open Technology Fund](https://guide.opentech.fund/application-platform-guidance).
+Other adopters like the [Digital Freedom Fund ](https://apply.hypha.digitalfreedomfund.org/)and [Open Technology Fund](https://guide.opentech.fund/application-platform-guidance) have created platform guides specific to their application processes.&#x20;
 
 ### Discussions
 
