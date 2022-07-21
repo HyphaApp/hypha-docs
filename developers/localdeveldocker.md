@@ -33,8 +33,6 @@ In production media is stored on AWS S3 but for local development you need a "me
 $ mkdir media
 ```
 
-OBS! Everything from now on will happen inside the hypha directory.
-
 ## Docker
 
 ### Build the Docker images
@@ -127,4 +125,5 @@ With this done, drop and then create the hypha database and run the pg restore c
 dropdb --user=hypha hypha
 createdb --user=hypha hypha
 pg_restore --verbose --clean --if-exists --no-acl --no-owner --dbname=hypha --username=hypha sandbox_db.dump
+python manage.py migrate
 ```
