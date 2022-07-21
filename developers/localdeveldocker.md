@@ -125,5 +125,11 @@ With this done, drop and then create the hypha database and run the pg restore c
 dropdb --user=hypha hypha
 createdb --user=hypha hypha
 pg_restore --verbose --clean --if-exists --no-acl --no-owner --dbname=hypha --username=hypha sandbox_db.dump
+```
+
+After restoring the sandbox db run the migrate command inside the py container.
+
+```
+docker-compose exec py bash
 python manage.py migrate
 ```
