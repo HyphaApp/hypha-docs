@@ -26,6 +26,7 @@
     * [Setting up funds and labs](staff/set-up-your-first-application/setting-up-funds-and-labs/README.md)
       * [Select a Workflow](staff/set-up-your-first-application/setting-up-funds-and-labs/select-a-workflow.md)
     * [Setting up a round](staff/set-up-your-first-application/setting-up-a-round.md)
+  * [Localization and Translation](staff/localization-and-translation.md)
 * [🙋 Want to Contribute?](contributors/README.md)
   * [Code of Conduct](contributors/codeofconduct.md)
   * [Contribute Code](contributors/code/README.md)
@@ -33,5 +34,4 @@
     * [Implementation Details](contributors/code/implementationdetails.md)
     * [Testing](contributors/code/testing.md)
   * [Contribute to Documentation](contributing/contributing-to-documentation.md)
-  * [Localization and Translation](contributors/localization-and-translation.md)
 * [📖 Glossary](glossary.md)
