@@ -10,7 +10,7 @@ Found a bug and know how to fix it? Built a new feature you want to add? Please 
 {% tab title="Documentation" %}
 
 
-The Hypha Guide welcomes contributors! [Contribute to documentation](../contributing/contributing-to-documentation.md) by reviewing the guide and giving feedback, revising existing content, or sharing new content.&#x20;
+The Hypha Guide welcomes contributors! [Contribute to documentation](broken-reference) by reviewing the guide and giving feedback, revising existing content, or sharing new content.&#x20;
 {% endtab %}
 
 {% tab title="Localization/Translation" %}
