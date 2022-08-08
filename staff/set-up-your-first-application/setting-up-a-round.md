@@ -29,5 +29,5 @@ Not selecting an end date allows the application to be open to the public indefi
 
 10\. You could save a draft or publish. Publish means the application will be publicly visible to applicants.
 
-![](../../.gitbook/assets/assets\_webapp-field-guide\_-Mk2jyrzy70S6oYU5w-q\_-Mk2km73pp1amuzCPd2K\_37.png)
+![](<../../.gitbook/assets/assets\_webapp-field-guide\_-Mk2jyrzy70S6oYU5w-q\_-Mk2km73pp1amuzCPd2K\_37 (1).png>)
 
