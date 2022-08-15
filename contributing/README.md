@@ -14,7 +14,7 @@ The Hypha Guide welcomes contributors! [Contribute to documentation](contribute-
 {% endtab %}
 
 {% tab title="Localization/Translation" %}
-Hypha has functionalities for adopters to localize their own version with [Weblate](https://weblate.org/) or install another translation service if they prefer.&#x20;
+Hypha has [functionalities for adopters to localize their own version](../staff/localization-and-translation.md) with Weblate or install another translation service if they prefer.&#x20;
 {% endtab %}
 {% endtabs %}
 
