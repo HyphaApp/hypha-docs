@@ -1,0 +1,5 @@
+site_name: Hypha docs
+site_url: https://docs.hypha.app/
+theme:
+  name: material
+
