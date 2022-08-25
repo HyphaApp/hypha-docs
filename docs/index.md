@@ -1,17 +1,16 @@
-# Welcome to MkDocs
+# 🚀 Getting Started
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+What is Hypha? Hypha is an open source submission management platform to receive and manage applications for funding. You are welcome to explore Hypha on our demo sandbox.
 
-## Commands
+#### Features
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+* Manage the collection and review of applications or submissions openly and efficiently.
+* Customize all aspects of the process, forms, workflows, review options, and more.
+* Automate workflows and integrate with other services (Slack, Mailgun, etc).
+* Regularly audited software with many privacy and security features.
+* View our [Roadmap](https://github.com/HyphaApp/hypha/wiki/Roadmap) for upcoming features and enhancements.
 
-## Project layout
+#### Technology
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+* Built with [Django](https://www.djangoproject.com/), [Wagtail](https://wagtail.io/), and [React](https://reactjs.org/)
+* Deploy with [Heroku](https://docs.hypha.app/deployment/heroku), [Docker](https://docs.hypha.app/deployment/docker), or [your own server](https://docs.hypha.app/deployment/stand-alone).
