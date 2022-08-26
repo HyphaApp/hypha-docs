@@ -1,12 +1,5 @@
 # Create a new User
 
-> #### 🚧 Page under construction🚧
->
-> _Check back for updates &_ [_contact us_](https://github.com/HyphaApp/hypha-docs/tree/17bf7118cadebd0b4544d77265ae6bad8510d4eb/gettingstarted\_overview/we.hypha.app) _with questions/feedback_
-
-\
-
-
 ## The First User (_for Developers_):
 
 The first user account is created when you install Hypha with this command:
@@ -19,14 +12,12 @@ The user created is an "administrator" role, a default Django role that bypasses
 
 This role should only be used by the person implementing/deploying Hypha for your organization, who may be part of the organization or may be an external contractor.
 
-\
-
 
 ## Creating additional users
 
 Creating additional users and assigning them Roles is done in Wagtail by someone with the Staff role.
 
-> ℹ️ _Only users with the_ [_"Staff"_](../../gettingstarted\_overview/gettingstarted\_overview/hypha\_roles.md) _Role can do this_
+> ℹ️ _Only users with the_ [_"Staff"_](/gettingstarted_overview/gettingstarted_overview/hypha_roles.md) _Role can do this_
 
 ### 1. From the Dashboard, click the "Apply admin" button
 

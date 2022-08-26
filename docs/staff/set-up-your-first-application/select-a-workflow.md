@@ -1,10 +1,10 @@
 # Select a Workflow
 
-The **Workflow** defines the stages and processes that the application should undertake with OTF. Creating a new Fund or Lab requires you to select one of these workflows.&#x20;
+The **Workflow** defines the stages and processes that the application should undertake with OTF. Creating a new Fund or Lab requires you to select one of these workflows.
 
-Each workflow has a predetermined amount of stages (e.g. request, proposal), application forms, review forms, and determination forms associated with this Fund or Lab. &#x20;
+Each workflow has a predetermined amount of stages (e.g. request, proposal), application forms, review forms, and determination forms associated with this Fund or Lab.
 
-Each workflow offers different statuses (e.g. External Review, Ready for Determination), and different actions (e.g Invite to proposal).&#x20;
+Each workflow offers different statuses (e.g. External Review, Ready for Determination), and different actions (e.g Invite to proposal).
 
 The four hard-coded workflows are: Request, Request with external review, Request with community review, Concept & Proposal.
 

@@ -2,23 +2,21 @@
 
 First off, thanks for taking the time to contribute! Hypha is improved by a small community of developers, designers and users. We welcome your contributions. There are many ways to contribute to Hypha - code, design, documentation and translation. Before you start working however, please read our [code of conduct](codeofconduct.md).
 
-{% tabs %}
-{% tab title="Code" %}
+## Code
+
 Found a bug and know how to fix it? Built a new feature you want to add? Please learn more about [how to contribute code](code/).
-{% endtab %}
 
-{% tab title="Documentation" %}
+## Documentation
 
 
-The Hypha Guide welcomes contributors! [Contribute to documentation](contribute-to-documentation.md) by reviewing the guide and giving feedback, revising existing content, or sharing new content.&#x20;
-{% endtab %}
+The Hypha Guide welcomes contributors! [Contribute to documentation](contribute-to-documentation.md) by reviewing the guide and giving feedback, revising existing content, or sharing new content.
 
-{% tab title="Localization/Translation" %}
-Hypha has [functionalities for adopters to localize their own version](../staff/localization-and-translation.md) with Weblate or install another translation service if they prefer.&#x20;
-{% endtab %}
-{% endtabs %}
 
-### Reporting issues
+## Localization/Translation
+
+Hypha has [functionalities for adopters to localize their own version](/staff/localization-and-translation.md) with Weblate or install another translation service if they prefer.
+
+## Reporting issues
 
 All changes in Hypha start as an issue.
 

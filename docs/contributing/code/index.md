@@ -1,8 +1,8 @@
 # Contribute Code
 
-### Creating Pull Requests&#x20;
+## Creating Pull Requests
 
-Found a bug and know how to fix it? Have some design wireframes to improve some usability issues? Traslated Hypha into another language? Built a new feature you want to add? Please submit an issue or create a pull request on [GitHub](https://github.com/HyphaApp/hypha/issues).&#x20;
+Found a bug and know how to fix it? Have some design wireframes to improve some usability issues? Traslated Hypha into another language? Built a new feature you want to add? Please submit an issue or create a pull request on [GitHub](https://github.com/HyphaApp/hypha/issues).
 
 Guidance for contributing code:
 

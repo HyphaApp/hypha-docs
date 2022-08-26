@@ -1,4 +1,4 @@
-# test.py configuration settings
+# production.py configuration settings
 
 ## Disable debug mode
 DEBUG = False - In production, this should always be `False`

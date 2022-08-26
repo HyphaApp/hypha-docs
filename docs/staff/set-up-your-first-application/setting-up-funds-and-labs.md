@@ -1,12 +1,12 @@
 # Setting up funds and labs
 
-### **Add a new fund in the top right or copy an existing fund**&#x20;
+## **Add a new fund in the top right or copy an existing fund**
 
 * You will then be able to add the following information
   * Name of the fund (Title)
-  * Select External Reviewers&#x20;
+  * Select External Reviewers
   * Workflow
-    * Workflow defines the stages and processes that the application should undertake&#x20;
+    * Workflow defines the stages and processes that the application should undertake
     * Currently there are four workflows you can select.
   * Assign application forms
     * Select a previously created application form
