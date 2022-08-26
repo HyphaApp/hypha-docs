@@ -1,10 +1,10 @@
 # Localization and Translation
 
-**Overview**
+## Overview
 
 Hypha offers translations into another language or translations into your organisation's vocabulary, or a combination of both. Hypha has functionalities for adopters to localize their own version with [Weblate](https://weblate.org/) or install another translation service if they prefer. Translations could also be implemented with a text editor.
 
-**Getting Started on Localization**
+## Getting Started on Localization
 
 Translations of Hypha can be of two kinds. Translations in to another language or translations in to you organisations vocabulary, or a combination of both.
 
@@ -12,7 +12,7 @@ Our team is currently using [Weblate](https://weblate.org/) to manage translatio
 
 Adopters could also consider installing another translation service or apps for Linux/Windows/macOS po-files. In the **How to Edit the .po file in hypha/locale** we describe how translators can edit directly with a text editor. All translations will eventually be stored as django.po files.
 
-**Adding a language**
+## Adding a language
 
 If your language is not listed on packaging.python.org, click the button Start new translation at the bottom of the language list and add the language you want to translate.
 
@@ -20,7 +20,7 @@ If your language is not listed on packaging.python.org, click the button Start n
 
 ![0cb98ef6ae05630cb9db64ccc2cc35bc16f779f4](https://user-images.githubusercontent.com/20019656/162624457-bb52fb66-eda2-48fb-8aed-1ee9e88a7d8c.png)
 
-**How to Edit the .po file in hypha/locale**
+## How to Edit the .po file in hypha/locale
 
 Hypha has translations to common strings propagated across other components within it by default. This lightens the burden of repetitive and multi version translation. The translation propagation can be disabled per Component configuration using Allow translation propagation in case the translations should diverge.
 

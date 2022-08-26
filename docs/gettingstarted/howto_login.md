@@ -19,7 +19,7 @@ _Often this is \[your-org-name.hypha.app], but the web address may be different_
 ![Screenshot of the login page of sandbox.opentech.fund, as above, but with "Email address\*" and "Password\*" text-entry boxes filled in with "staff@example.com" and "\*\*\*\*\*\*\*\*\*\*\*"](/assets/sandbox\_login\_filledout.png)
 
 
-> #### **Note:** Your login credentials should have been provided to you in an email sent by the system when your account was created.
+> **Note:** Your login credentials should have been provided to you in an email sent by the system when your account was created.
 >
 >
 > _If you do not know them, you should:_

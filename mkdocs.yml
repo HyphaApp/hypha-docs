@@ -3,7 +3,9 @@ site_url: https://docs.hypha.app/
 site_description: 'Documentation for Hypha, an open source submission management platform.'
 repo_url: 'https://github.com/mhausenblas/mkdocs-template'
 theme:
-  name: material
+    name: material
+    features:
+        - navigation.indexes
 plugins:
     - awesome-pages
     - search

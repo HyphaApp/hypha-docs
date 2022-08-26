@@ -8,22 +8,22 @@ Each workflow offers different statuses (e.g. External Review, Ready for Determi
 
 The four hard-coded workflows are: Request, Request with external review, Request with community review, Concept & Proposal.
 
-**💁** [**Request** ](broken-reference)****
+💁 [Request](broken-reference)
 
 * Single stage
 * No advisory council review
 
-**👳** [**Request with External Reviewer**](broken-reference)****
+👳 [Request with External Reviewer](broken-reference)
 
 * Single stage
 * Advisory council review or External Review stage
 
-**👪** [**Request with Community Review**](broken-reference)****
+👪 [Request with Community Review](broken-reference)
 
 * Single stage
 * Advisory council review or External Review stage
 
-**💡** [**Concept and Proposal**](broken-reference)****
+💡 [Concept and Proposal](broken-reference)
 
 * There are two stages
 * First stage as request
