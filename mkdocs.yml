@@ -2,6 +2,9 @@ site_name: Hypha docs
 site_url: https://docs.hypha.app/
 site_description: 'Documentation for Hypha, an open source submission management platform.'
 repo_url: 'https://github.com/mhausenblas/mkdocs-template'
+
+dev_addr: localhost:9000
+
 theme:
     name: material
     features:
