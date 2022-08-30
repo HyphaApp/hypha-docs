@@ -28,7 +28,7 @@ _Often this is \[your-org-name.hypha.app], but the web address may be different_
 > 2. Contact the program manager (Applicants) or the organizational staff member (Reviewers, Staff) in charge of managing account information.
 
 
-On successfully logging in, you should be directed to your "Dashboard" - what this page looks like is different depending on your [Role](gettingstarted\_overview/hypha\_roles.md):
+On successfully logging in, you should be directed to your "Dashboard" - what this page looks like is different depending on your [Role](../staff/user-roles/hypha_roles.md):
 
 * **Applicants** see the "active submissions" and a button to "submit a new application"
 * **Reviewers** see applications "Waiting for your review" and "Your previous reviews"
