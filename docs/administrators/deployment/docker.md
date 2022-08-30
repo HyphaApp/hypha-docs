@@ -78,7 +78,7 @@ docker-compose exec db bash
 
 ### Stop the docker environment.
 
-Press `ctrl+c` in the terminal window.
+Press ++ctrl+c++ in the terminal window.
 
 ## Other considerations
 
