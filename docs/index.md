@@ -1,3 +1,7 @@
+---
+hide:
+  - navigation
+---
 # Hypha documentation
 
 What is Hypha? Hypha is an open source submission management platform to receive and manage applications for funding. You are welcome to explore Hypha on our demo sandbox.
