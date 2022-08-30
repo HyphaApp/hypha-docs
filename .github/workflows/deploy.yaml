@@ -20,7 +20,6 @@ jobs:
         uses: mhausenblas/mkdocs-deploy-gh-pages@master
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          CUSTOM_DOMAIN: docs.hypha.app
           CONFIG_FILE: mkdocs.yml
           EXTRA_PACKAGES: build-base
           REQUIREMENTS: requirements.txt
