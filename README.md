@@ -12,4 +12,4 @@ pip install -r requirements.txt
 mkdocs serve
 ```
 
-Open http://localhost:9000/ to see the documentation site that auto-reload, if you make changes to markdown files.
+Open http://localhost:9100/ to see the documentation site that auto-reload, if you make changes to markdown files.
