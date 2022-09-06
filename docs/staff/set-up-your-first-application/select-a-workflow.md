@@ -13,7 +13,7 @@ The four hard-coded workflows are: Request, Request with external review, Reques
 * Single stage
 * No advisory council review
 
-[Screenshot 2022-09-06 8 10 17 PM](https://user-images.githubusercontent.com/20019656/188733678-a926ebdd-8b8d-46a6-bfb7-a35dbe376ec1.png)
+![Screenshot 2022-09-06 8 10 17 PM](https://user-images.githubusercontent.com/20019656/188733678-a926ebdd-8b8d-46a6-bfb7-a35dbe376ec1.png)
 
 
 👳 [Request with External Reviewer]
