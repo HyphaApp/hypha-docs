@@ -1,4 +1,4 @@
-# First steps
+# How to login
 
 > ℹ️ The information on this page uses screenshots from a test version of Hypha. The user interface in your implementation of Hypha may look different.
 
