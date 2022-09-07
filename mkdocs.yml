@@ -59,14 +59,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 'Getting Started':
-    - 'configuration.md'
-    - 'deployment.md'
+      'configuration.md'
+      'deployment.md'
   - 'User Guide': 
-    - 'login.md'
-    - 'user-roles.md'
-    - 'create-a-user-account.md'
-    - 'set-up-your-first-application.md'
-    - 'localization-and-translation.md'
+      'login.md'
+      'user-roles.md'
+      'create-a-user-account.md'
+      'set-up-your-first-application.md'
+      'localization-and-translation.md'
   - 'Developer Guide': /developers.html
   - 'About': 
     - 'Code of Conduct': 'codeofconduct.md'
