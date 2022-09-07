@@ -59,14 +59,14 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 'Getting Started':
-    - 'Configuration': 'configuration.md'
-    - 'Deployment': 'deployment.md'
+    - 'configuration.md'
+    - 'deployment.md'
   - 'User Guide': 
-    - 'Login': 'login.md'
-    - 'User Roles': 'user-roles.md'
-    - 'Create User Account': 'create-a-user-account.md'
-    - 'Launch Your Application': 'set-up-your-first-application.md'
-    - 'Localization': 'localization-and-translation.md'
+    - 'login.md'
+    - 'user-roles.md'
+    - 'create-a-user-account.md'
+    - 'set-up-your-first-application.md'
+    - 'localization-and-translation.md'
   - 'Developer Guide': /developers.html
   - 'About': 
     - 'Code of Conduct': 'codeofconduct.md'
