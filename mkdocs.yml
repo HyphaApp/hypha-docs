@@ -59,10 +59,6 @@ markdown_extensions:
 nav:
   - Home: index.md
   - ...
-  - Getting Started: configuration.md
-  - User Guide: login.md
-  - Developer Guide: developers
-  - About: codeofconduct.md
   - Glossary: glossary.md
 
 extra:
