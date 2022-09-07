@@ -58,6 +58,14 @@ markdown_extensions:
 
 nav:
   - Home: index.md
+  - 'Getting Started':
+      - 'Configuration':
+        - configurationoptions.md
+        - base.py.md
+        - dev.py.md
+        - example.py.md
+        - local.py.md
+        - production.py.md
   - 'User Guide':
       - selectworkflow.md
       - setupfundlabround.md
@@ -66,8 +74,11 @@ nav:
       - localdevdocker.md
       - localdevscratch.md
   - 'Contributing':
+      - codeofconduct.md
       - contributetodocumentation.md
       - implementationdetails.md
+      - submittingchanges.md
+      - testing.md
       - localization.md
   - Glossary: glossary.md
 
