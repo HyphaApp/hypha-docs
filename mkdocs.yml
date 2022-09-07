@@ -59,6 +59,7 @@ markdown_extensions:
 nav:
   - Home: index.md
   - ...
+  - About: staff.md
   - Glossary: glossary.md
 
 extra:
