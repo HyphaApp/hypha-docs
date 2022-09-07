@@ -58,8 +58,8 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - ...
-  - About: staff.md
+  - 'User Guide': staff.md
+  - About: 
   - Glossary: glossary.md
 
 extra:
