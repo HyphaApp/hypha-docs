@@ -59,8 +59,8 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 'Developer Guide': 
-    -'createanewuser.md'
-    -'localdocker.md'
+      'createanewuser.md'
+      'localdocker.md'
   - Localization: localization.md
   - Glossary: glossary.md
 
