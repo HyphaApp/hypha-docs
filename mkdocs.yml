@@ -59,21 +59,25 @@ markdown_extensions:
 nav:
   - Home: index.md
   - Getting Started:
-    - /configuration
-    - /deployment
+    - 'Configuration': 'configuration.md'
+    - 'Deployment': 'deployment.md'
   - User Guide: 
-    - login.md
-    - /user-roles
-    - create-a-user-account.md
-    - /set-up-your-first-application
-    - localization-and-translation.md
+    - 'Login': 'login.md'
+    - 'User Roles': 'user-roles.md'
+    - 'Create User Account': 'create-a-user-account.md'
+    - 'Launch Your Application': 'set-up-your-first-application.md'
+    - 'Localization': 'localization-and-translation.md'
   - Developer Guide: 
-    - createusers.md
-    - localdeveldocker.md
-    - localdevelscratch.md
+    - 'Create User Accounts': 'createusers.md'
+    - 'Docker': 'localdeveldocker.md'
+    - 'Scratch': 'localdevelscratch.md'
   - About: 
-    - codeofconduct.md
-    - contribute-to-documentation.md
+    - 'Code of Conduct': 'codeofconduct.md'
+    - 'Contribute Documentation': 'contribute-to-documentation.md'
+    - 'Contribute Code': 
+      - 'implementationdetails.md'
+      - 'submittingchanges.md'
+      - 'testing.md'
   - Glossary: glossary.md
 
 extra:
