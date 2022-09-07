@@ -66,6 +66,8 @@ nav:
       - localdevdocker.md
       - localdevscratch.md
   - 'Contributing':
+      - contributetodocumentation.md
+      - implementationdetails.md
       - localization.md
   - Glossary: glossary.md
 
