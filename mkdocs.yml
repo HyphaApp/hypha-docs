@@ -59,11 +59,15 @@ markdown_extensions:
 nav:
   - Home: index.md
   - 'Getting Started':
-      - 'Create Your Application': https://github.com/HyphaApp/hypha-docs/tree/main/docs/staff/set-up-your-first-application
+  - 'User Guide':
+      - selectworkflow.md
+      - setupfundlabround.md
   - 'Developer Guide': 
-      - createanewuser.md
-      - localdocker.md
-  - Localization: localization.md
+      - createusers.md
+      - localdevdocker.md
+      - localdevscratch.md
+  - 'Contributing':
+      - localization.md
   - Glossary: glossary.md
 
 extra:
