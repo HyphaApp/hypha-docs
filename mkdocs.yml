@@ -68,9 +68,9 @@ nav:
     - 'Launch Your Application': 'set-up-your-first-application.md'
     - 'Localization': 'localization-and-translation.md'
   - 'Developer Guide': 
-    - 'Create User Accounts': 'createusers.md'
-    - 'Docker': 'localdeveldocker.md'
-    - 'Scratch': 'localdevelscratch.md'
+    - 'Create User Accounts': /createusers.md/
+    - 'Docker': /localdeveldocker.md/
+    - 'Scratch': /localdevelscratch.md/
   - 'About': 
     - 'Code of Conduct': 'codeofconduct.md'
     - 'Contribute Documentation': 'contribute-to-documentation.md'
