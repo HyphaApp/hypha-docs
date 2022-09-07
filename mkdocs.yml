@@ -58,16 +58,10 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - 'Getting Started':'configuration.md'
-  - 'User Guide': 'login.md'
-  - 'Developer Guide': 'developers'
-  - 'About': 
-    - 'Code of Conduct': 'codeofconduct.md'
-    - 'Contribute Documentation': 'contribute-to-documentation.md'
-    - 'Contribute Code': 
-      - 'implementationdetails.md'
-      - 'submittingchanges.md'
-      - 'testing.md'
+  - Getting Started:'configuration.md'
+  - User Guide: 'login.md'
+  - Developer Guide: 'developers'
+  - About: 'Code of Conduct': 'codeofconduct.md'
   - Glossary: glossary.md
 
 extra:
