@@ -58,7 +58,22 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - User Guide: /staff/
+  - Getting Started:
+    - /configuration
+    - /deployment
+  - User Guide: 
+    - login.md
+    - /user-roles
+    - create-a-user-account.md
+    - /set-up-your-first-application
+    - localization-and-translation.md
+  - Developer Guide: 
+    - createusers.md
+    - localdeveldocker.md
+    - localdevelscratch.md
+  - About: 
+    - codeofconduct.md
+    - contribute-to-documentation.md
   - Glossary: glossary.md
 
 extra:
