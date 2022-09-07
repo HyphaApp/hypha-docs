@@ -58,10 +58,7 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - Developers Guide:
-    - ['developers/createusers.md', 'Developer Guide', 'Create Users']
-    - ['developers/localdeveldocker.md', 'Developer Guide', 'Local Docker']
-    - ['developers/localdevelscratch.md', 'Developer Guide', 'Local Scratch']
+  - ...
   - Glossary: glossary.md
 
 extra:
