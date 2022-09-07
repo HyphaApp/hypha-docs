@@ -67,9 +67,9 @@ nav:
         - local.py.md
         - production.py.md
       - 'Deploying':
-        -docker.md
-        -heroku.md
-        -standalone.md
+        - docker.md
+        - heroku.md
+        - standalone.md
   - 'User Guide':
       - selectworkflow.md
       - setupfundlabround.md
