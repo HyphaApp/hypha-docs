@@ -67,7 +67,7 @@ nav:
     - 'Create User Account': 'create-a-user-account.md'
     - 'Launch Your Application': 'set-up-your-first-application.md'
     - 'Localization': 'localization-and-translation.md'
-  - 'Developer Guide': /developers/
+  - 'Developer Guide': /developers.html
   - 'About': 
     - 'Code of Conduct': 'codeofconduct.md'
     - 'Contribute Documentation': 'contribute-to-documentation.md'
