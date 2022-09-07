@@ -58,7 +58,11 @@ markdown_extensions:
 
 nav:
   - Home: index.md
-  - ...
+  pages:
+  - ['developers/createusers.md', 'Developer Guide', 'Create Users']
+  - ['developers/localdeveldocker.md', 'Developer Guide', 'Local Docker']
+  - ['developers/localdevelscratch.md', 'Developer Guide', 'Local Scratch']
+  - ['about/license.md', 'About', 'License']
   - Glossary: glossary.md
 
 extra:
