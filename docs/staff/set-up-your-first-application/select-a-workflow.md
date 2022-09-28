@@ -10,33 +10,39 @@ The four hard-coded workflows are: Request, Request with external review, Reques
 
 💁 **Request**
 
-* Single stage
-* No advisory council review
+This application process requires less time and effort than the other workflow processes. This workflow has only a single stage with no external review. 
+
+### Proposal Persona
+Funding organization offers a rapid response fund or another type of grantmaking that requires a streamline process that does not require an external review process. This application process could also be used for in-kind services like coaching, security audits, etc. 
+
 
 ![Screenshot 2022-09-06 8 10 17 PM](https://user-images.githubusercontent.com/20019656/188733678-a926ebdd-8b8d-46a6-bfb7-a35dbe376ec1.png)
 
 
 👳 **Request with External Reviewer**
 
-* Single stage
-* Advisory council review or External Review stage
+The Request - External Reviewer workflow is a single stage application process with functionalties for external reviewers like advisory board members to access applications and submit reviews.
+
+### Proposal Persona
+This funding organization relies on external partners for evaluations. Proposals submitted to this workflow are reviewed by staff members and an advisory board that is made up of trusted community members. 
 
 ![Screenshot 2022-09-06 10 40 41 PM](https://user-images.githubusercontent.com/20019656/188733916-d2133858-ee47-49d3-a63c-a78001be75c5.png)
 
 
 👪 **Request with Community Review**
 
-* Single stage
-* Advisory council review or External Review stage
+The Request with Community Review workflow is a single stage application process with functionalties for external reviewers, including applicants to carry out peer review of each other applications.
+
+### Proposal Persona
+This funding organization works with the community to co-design a meaningful definition of success. Applications are reviewed by staff members and an advisory board that is made up of trusted community members.
 
 ![Screenshot 2022-09-06 10 41 24 PM](https://user-images.githubusercontent.com/20019656/188734015-69b4890c-d9f9-4b60-b326-88acedff3f76.png)
 
 
 💡 **Concept and Proposal**
 
-* There are two stages
-* First stage as request
-* Second stage includes Advisory council review or External Review stage
+### Proposal Persona
+Applicants could use this workflow to follow the trajectory of the submission process as this workflow is transparent from the concept note (first stage) all the way to the proposal (second stage) with prospective and current applicants about funding priorities and decisions. The proposal stage has functionalities for applications to be reviewed by staff members and an advisory board that is made up of trusted community members.
 
 **Stage 1**
 
