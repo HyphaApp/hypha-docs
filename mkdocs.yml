@@ -1,6 +1,6 @@
 site_name: Hypha docs
 site_url: https://docs.hypha.app/
-site_description: "Documentation for Hypha, an open source submission management platform."
+site_description: 'Documentation for Hypha, an open source submission management platform.'
 repo_url: https://github.com/HyphaApp/hypha-docs
 edit_uri: edit/main/docs/
 
