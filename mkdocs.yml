@@ -63,14 +63,14 @@ nav:
 
 extra:
   social:
-    - icon: material/chat
-      link: https://chat.hypha.app/
-      name: Hypha Chat
+  - icon: material/chat
+    link: https://chat.hypha.app/
+    name: Hypha Chat
 
-    - icon: material/forum
-      link: https://we.hypha.app/
-      name: Hypha Forum
+  - icon: material/forum
+    link: https://we.hypha.app/
+    name: Hypha Forum
 
-    - icon: material/github
-      link: https://github.com/HyphaApp/
-      name: GitHub Org
+  - icon: material/github
+    link: https://github.com/HyphaApp/
+    name: GitHub Org
