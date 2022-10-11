@@ -3,7 +3,8 @@ site_url: https://docs.hypha.app/
 site_description: 'Documentation for Hypha, an open source submission management platform.'
 repo_url: https://github.com/HyphaApp/hypha-docs
 edit_uri: edit/main/docs/
-
+copyright: >-
+  Licensed under <a href="https://github.com/HyphaApp/hypha-docs/blob/main/LICENSE">CC0-1.0</a> • <a href="#__consent">Change cookie settings</a>
 dev_addr: localhost:9100
 
 theme:
@@ -74,6 +75,13 @@ extra:
   - icon: material/github
     link: https://github.com/HyphaApp/
     name: GitHub Org
+  consent:
+    title: Cookie consent
+    description: >- 
+      We use cookies to recognize your repeated visits and preferences, as well
+      as to measure the effectiveness of our documentation and whether users
+      find what they're searching for. With your consent, you're helping us to
+      make our documentation better.
   analytics:
     provider: google
     property: G-XXXXXXXXXX
@@ -90,4 +98,6 @@ extra:
           data: 0
           note: >- 
             Thanks for your feedback! Help us improve this page by
-            using our <a href="https://github.com/HyphaApp/hypha-docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a> or post on <a href="https://we.hypha.app/c/documentation/8" target="_blank" rel="noopener">our forum</a>.
+            using our <a href="https://github.com/HyphaApp/hypha-docs/issues/new/?title=[Feedback]+{title}+-+{url}"
+            target="_blank" rel="noopener">feedback form</a>
+            or post on <a href="https://we.hypha.app/c/documentation/8" target="_blank" rel="noopener">our forum</a>.
