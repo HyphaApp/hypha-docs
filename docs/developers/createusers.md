@@ -42,6 +42,3 @@ In the \[NAME] Tab, add the user's name and contact email address
 In the \[Roles] tab, specify the level of access you want your user to have by giving them specific Roles (see [Roles documentation](../staff/user-roles/index.md) for more information)
 
 ### 6. Finish by clicking a button, I'm sure (just have to look again to remember what it's called)
-
-!!! info "Reporting Issues"
-    ⚠️ If you notice errors on this page, or would like to see content added, please: post on [we.hypha.app](https://github.com/HyphaApp/hypha-docs/tree/d18f0a73a801778bd0eae53bce657858317053ba/gettingstarted\_overview/we.hypha.app) OR  post a "New Issue" on the [Hypha documentation Github page](https://github.com/HyphaApp/hypha-docs/issues). **Make sure to include a link to this page in your post**.

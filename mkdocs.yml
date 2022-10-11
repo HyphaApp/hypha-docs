@@ -74,3 +74,20 @@ extra:
   - icon: material/github
     link: https://github.com/HyphaApp/
     name: GitHub Org
+  analytics:
+    provider: google
+    property: G-XXXXXXXXXX
+    feedback:
+      title: Was this page helpful?
+      ratings:
+        - icon: material/emoticon-happy-outline
+          name: This page was helpful
+          data: 1
+          note: >-
+            Thanks for your feedback!
+        - icon: material/emoticon-sad-outline
+          name: This page could be improved
+          data: 0
+          note: >- 
+            Thanks for your feedback! Help us improve this page by
+            using our <a href="https://github.com/HyphaApp/hypha-docs/issues/new/?title=[Feedback]+{title}+-+{url}" target="_blank" rel="noopener">feedback form</a> or post on <a href="https://we.hypha.app/c/documentation/8" target="_blank" rel="noopener">our forum</a>.

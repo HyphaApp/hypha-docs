@@ -1,6 +1,7 @@
 ---
 hide:
   - navigation
+  - feedback
 ---
 # Hypha documentation
 
