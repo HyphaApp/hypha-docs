@@ -12,6 +12,8 @@ A good idea is to include the GitHub issue number in the format "\*/gh-1234-\*".
 
 Write it so other developers, and your future self, can understand what was changes and why.
 
+If the commit is related to one or more issues, mention the issue numbers in the commit message ("issue \#1234").
+
 ## 3. Rebase your branch before creating the PR
 
 A rebase makes sure the PR is up to date and has no merge conflicts. Please do a rebase and not just a merge, this gives a clean and readable commit history.
