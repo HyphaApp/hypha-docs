@@ -1,5 +1,7 @@
 # Menu items: an overview
 
+The WagTail Admin is your "back office" for setting up form applications and publishing Funds. This interface is also where you could set different levels of permissions and access for user roles or groups. You could use the admin menu (or explorer menu)to navigate through different sections of the WagTail Admin.
+
 ## Admin menu
 
 ### Hypha custom
