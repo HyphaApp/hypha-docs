@@ -14,7 +14,7 @@ These are the basic packages needed before you can start the installation proces
 
 * python3-pip and python3-venv - install using  `sudo apt-get install python3-pip python3-venv`
 * postgresql \(version 12.x\) use `sudo apt-get install postgresql postgresql-contrib postgresql-server-dev-12`
-* to install nodejs \(version v16.x\), use nodesource. Add the PPA to your sources list by running this script: `curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -` then `sudo apt-get install nodejs`
+* to install nodejs \(version v16.x\), use nodesource. Add the PPA to your sources list by running this script: `curl -sL https://deb.nodesource.com/setup_16.x | sudo -E bash -` then `sudo apt-get install nodejs`
 
 ### Python virtual environment
 
@@ -44,12 +44,6 @@ All the needed Node packages are listed in `package.json`. Install them with thi
 $ npm install
 ```
 
-You will also need the gulp task manager. On some systems you might need to run this command with `sudo`.
-
-```text
-$ npm install -g gulp-cli
-```
-
 ### The Postgres database
 
 Postgresql is the database used. Start the server you installed above using `sudo service postgresql start`, then log into the postgres superuser, `sudo su - postgres` and enter the postgresql cli with `psql`. In the CLI, use these commands:
@@ -68,7 +62,7 @@ To begin with, set the `export SECURE_SSL_REDIRECT=false` to prevent SSL redirec
 
 Then use the following commands to test run the server:
 
-* `gulp deploy`
+* `npm run build`
 * `python manage.py collectstatic --noinput`
 * `python manage.py createcachetable`
 * `python manage.py migrate --noinput`
